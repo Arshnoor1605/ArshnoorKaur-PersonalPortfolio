@@ -31,8 +31,6 @@
 //     </div>
 //   );
 // }
-
-"use client";
 import React, { useEffect, useRef } from "react";
 import { ContainerScroll } from "./ui/container-scroll-animation";
 import Image from "next/image";
@@ -63,7 +61,9 @@ const ParallaxImage = () => {
 
 export function HeroScrollDemo() {
   return (
-    <div className="relative flex flex-col overflow-hidden">
+    <div className="relative flex flex-col overflow-hidden mb-16">
+      {" "}
+      {/* Added margin-bottom */}
       <ParallaxImage />
       <ContainerScroll
         titleComponent={
@@ -72,7 +72,7 @@ export function HeroScrollDemo() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
-              className="relative text-4xl font-semibold text-white dark:text-white z-10"
+              className="relative text-4xl font-semibold text-white dark:text-white z-10 mb-9"
             >
               Welcome to my space—where Arshnoor’s innovative code turns visions{" "}
               <br />

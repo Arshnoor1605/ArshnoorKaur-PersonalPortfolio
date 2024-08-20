@@ -14,7 +14,7 @@ export function FloatingDockDemo() {
     {
       title: "Home",
       icon: (
-        <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-900" />
+        <IconHome className="h-full w-full text-white dark:text-neutral-300" />
       ),
       href: "#",
     },
@@ -22,14 +22,14 @@ export function FloatingDockDemo() {
     {
       title: "GitHub",
       icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandGithub className="h-full w-full text-white dark:text-neutral-300" />
       ),
       href: "#",
     },
     {
       title: "Linkedin",
       icon: (
-        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-white dark:text-neutral-300" />
       ),
       href: "#",
     },
@@ -37,20 +37,20 @@ export function FloatingDockDemo() {
     {
       title: "Twitter",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandX className="h-full w-full text-white dark:text-neutral-300" />
       ),
       href: "#",
     },
     {
       title: "Email",
       icon: (
-        <IconRecordMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconRecordMail className="h-full w-full text-white dark:text-neutral-300" />
       ),
       href: "kaura69@mcmaster.ca",
     },
   ];
   return (
-    <div className="flex items-center justify-center h-[30rem] w-full">
+    <div className="flex items-center justify-center h-[50rem] w-full">
       <FloatingDock
         mobileClassName="translate-y-20" // only for demo, remove for production
         items={links}
