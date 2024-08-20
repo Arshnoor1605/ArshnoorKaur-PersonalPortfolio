@@ -31,8 +31,8 @@
 
 import React from "react";
 import { cn } from "@/lib/utils";
-import { Spotlight } from "@/components/ui/spotlight";
-import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import { Spotlight } from "./spotlight";
+import { TextGenerateEffect } from "./text-generate-effect";
 
 export function SpotlightPreview() {
   return (
