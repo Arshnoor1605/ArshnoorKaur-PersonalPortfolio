@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import { ShootingStars } from "@/components/ui/shooting-stars";
-import { StarsBackground } from "@/components/ui/stars-background";
+import { ShootingStars } from "./shooting-stars";
+import { StarsBackground } from "./stars-background";
 import { HeroScrollDemo } from "./container_scroll";
 export function ShootingStarsAndStarsBackgroundDemo() {
   return (
