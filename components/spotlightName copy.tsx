@@ -35,7 +35,7 @@ import { Spotlight } from "./spotlight";
 import { TextGenerateEffect } from "./text-generate-effect";
 import Timeline from "./timeline";
 
-export function SpotlightPreview() {
+export function SpotlightPreviewExp() {
   return (
     <div className="mt-10 h-[60rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight className="left-0 md:left-60 md:-top-20" fill="white" />

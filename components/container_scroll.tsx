@@ -53,7 +53,7 @@ const ParallaxImage = () => {
   return (
     <div
       ref={ref}
-      className="absolute inset-0 bg-cover bg-center"
+      className="relative inset-0 bg-cover bg-center"
       style={{ backgroundImage: "url('/public/next.svg')" }}
     />
   );
@@ -84,8 +84,8 @@ export function HeroScrollDemo() {
         }
       >
         <Image
-          src={"/STaBL YMCA SixNations.jpeg"}
-          alt="hero"
+          src={"/FallbyNoor.jpeg"}
+          alt="my image"
           height={720}
           width={1400}
           className="mx-auto rounded-2xl object-cover h-full object-left-top"

@@ -7,13 +7,15 @@ import { StarsBackground } from "../../components/stars-background";
 import { SpotlightPreview } from "../../components/spotlightName";
 import Timeline from "../../components/timeline";
 import Footer from "../../components/footer";
+import { SpotlightPreviewExp } from "../../components/spotlightName copy";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-black justify-between p-24">
       <HeroScrollDemo />
       <SpotlightPreview />
-      <Timeline />
+      <SpotlightPreviewExp />
+      {/* <Timeline /> */}
 
       <Footer />
       <ShootingStars />
