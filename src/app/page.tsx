@@ -8,12 +8,16 @@ import { SpotlightPreview } from "../../components/spotlightName";
 import Timeline from "../../components/timeline";
 import Footer from "../../components/footer";
 import { SpotlightPreviewExp } from "../../components/spotlightNamecopy";
+import { BentoGridThirdDemo } from "../../components/bento";
+import { NavbarDemo } from "../../components/navbar";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-black justify-between p-24">
+      <NavbarDemo />
       <HeroScrollDemo />
-      <SpotlightPreview />
+      {/* <SpotlightPreview /> */}
+      <BentoGridThirdDemo />
       <SpotlightPreviewExp />
       {/* <Timeline /> */}
 

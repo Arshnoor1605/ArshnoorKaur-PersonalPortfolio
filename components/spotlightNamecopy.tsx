@@ -37,13 +37,13 @@ import Timeline from "./timeline";
 
 export function SpotlightPreviewExp() {
   return (
-    <div className="mt-10 h-[60rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <div className="mt-10 h-[48rem] mb-10 w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight className="left-0 md:left-60 md:-top-20" fill="white" />
       <div className="max-w-7xl mx-auto relative z-10 w-full md:pt-6">
         {" "}
         {/* Adjusted padding */}
-        <h1 className="m-10 text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-cyan-300 to-blue-400 bg-opacity-50">
-          About Me
+        <h1 className="m-10 text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-50 to-teal-200 bg-opacity-50">
+          Experience
         </h1>
         <Timeline />
       </div>
