@@ -61,7 +61,7 @@ const ParallaxImage = () => {
 
 export function HeroScrollDemo() {
   return (
-    <div className="relative flex flex-col overflow-hidden mb-16">
+    <div className="relative flex flex-col overflow-hidden -mb-1">
       {" "}
       {/* Added margin-bottom */}
       <ParallaxImage />
