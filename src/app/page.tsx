@@ -7,7 +7,7 @@ import { StarsBackground } from "../../components/stars-background";
 import { SpotlightPreview } from "../../components/spotlightName";
 import Timeline from "../../components/timeline";
 import Footer from "../../components/footer";
-import { SpotlightPreviewExp } from "../../components/spotlightName-copy";
+import { SpotlightPreviewExp } from "../../components/spotlightNamecopy";
 
 export default function Home() {
   return (
