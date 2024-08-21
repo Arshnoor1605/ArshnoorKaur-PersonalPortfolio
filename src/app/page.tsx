@@ -14,17 +14,17 @@ import { NavbarDemo } from "../../components/navbar";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-black justify-between p-24">
+      <ShootingStars />
       <NavbarDemo />
       <HeroScrollDemo />
       {/* <SpotlightPreview /> */}
       <BentoGridThirdDemo />
       <SpotlightPreviewExp />
+      <StarsBackground />
+
       {/* <Timeline /> */}
 
-      <Footer />
-      <ShootingStars />
-
-      <StarsBackground />
+      {/* <Footer /> */}
     </main>
   );
 }
