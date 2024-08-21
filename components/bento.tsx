@@ -340,11 +340,14 @@ const SkeletonFour = () => {
           className="rounded-full h-10 w-10"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-          I love angular, RSC, and Redux.
+          Find my projects on GitHub
         </p>
-        <p className="border border-orange-500 bg-orange-100 dark:bg-orange-900/20 text-orange-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Helpless
-        </p>
+        <a
+          href="https://github.com/Arshnoor1605"
+          className="border border-orange-500 bg-orange-500 dark:bg-orange-900/20 text-white text-xs rounded-full px-2 py-0.5 mt-4"
+        >
+          Check them out
+        </a>
       </motion.div>
     </motion.div>
   );
@@ -525,10 +528,13 @@ const items = [
     className: "md:col-span-1",
   },
   {
-    title: "Sentiment Analysis",
+    title: "Connect with me",
     description: (
       <span className="text-sm">
-        Understand the sentiment of your text with AI analysis.
+        Whether you’re interested in collaborating on a project, discussing new
+        opportunities, or just saying hello, you can find me on various social
+        media platforms. I’m always excited to connect with like-minded
+        individuals and explore new ideas. Let’s connect!
       </span>
     ),
     header: <SkeletonFour />,
