@@ -66,24 +66,24 @@ const SkeletonOne = () => {
       >
         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
-          <p className="text-slate-900 font-semibold text-base md:text-xs font-mono antialiased">
+          <p className="sm:text-sm text-xs text-center font-semibold text-neutral-600 font-sans antialiased">
             Fullname:
           </p>
-          <p className="text-cyan-900 font-semibold text-base md:text-xs font-mono antialiased">
+          <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 font-sans antialiased">
             Arshnoor Kaur{" "}
           </p>
         </div>
       </motion.div>
       <motion.div
         variants={variantsSecond}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white dark:bg-black"
+        className="flex flex-row rounded-full border p-2 items-center space-x-2 bg-transparent bg-white dark:bg-black"
       >
         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
-        <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
-          <p className="text-slate-900 font-semibold text-base md:text-xs font-mono antialiased">
+        <div className="w-full h-4  rounded-full dark:bg-neutral-900 flex flex-row">
+          <p className="text-slate-900 font-semibold text-xs md:text-sm font-sans antialiased">
             Birthdate:
           </p>
-          <p className="text-cyan-900 font-semibold text-base md:text-xs font-mono antialiased">
+          <p className="text-cyan-900 font-semibold text-xs md:text-sm font-sans antialiased">
             May 16th, 2004
           </p>
         </div>
@@ -94,10 +94,10 @@ const SkeletonOne = () => {
       >
         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
-          <p className="text-slate-900 font-semibold text-base md:text-xs font-mono antialiased">
+          <p className="text-slate-900 font-semibold text-xs md:text-sm font-sans antialiased">
             Email:
           </p>
-          <p className="text-cyan-900 font-semibold text-base md:text-xs font-mono antialiased">
+          <p className="text-cyan-900 font-semibold text-xs md:text-sm font-sans antialiased">
             kaura69@mcmaster.ca
           </p>
         </div>
@@ -331,6 +331,7 @@ const items = [
     description: (
       <span className="text-sm">
         I'm a cell-like independent teamworker, strong in coding and research.
+        Below are highlights of my technical skills:
       </span>
     ),
     header: <SkeletonTwo />,
