@@ -447,7 +447,7 @@ const SkeletonFive = () => {
         />
         <div className="flex flex-col">
           <p className="text-xs text-black font-bold antialiased">
-            Bachelors Degree
+            McMaster University
           </p>
           <p className="text-xs text-zinc-700 antialiased">
             Bachelors of Applied Sciences in Computer Science
@@ -459,10 +459,24 @@ const SkeletonFive = () => {
       </motion.div>
       <motion.div
         variants={variantsSecond}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
+        className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2 items-start justify-end space-x-2 ml-auto bg-white dark:bg-black"
       >
-        <p className="text-xs text-neutral-500">Use PHP.</p>
-        <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
+        <div className="flex flex-col">
+          <p className="text-xs text-black font-bold antialiased">
+            Gyan Bharati School
+          </p>
+          <p className="text-xs text-zinc-700 antialiased">
+            High School Degree
+          </p>
+          <p className="text-xs text-slate-500 antialiased">(2019-2022)</p>
+        </div>
+        <Image
+          src="/GBSLogo.jpeg" // Corrected URL
+          alt="avatar"
+          height={100} // Height should be a number
+          width={100} // Width should be a number
+          className="rounded-full h-10 w-10"
+        />
       </motion.div>
     </motion.div>
   );
