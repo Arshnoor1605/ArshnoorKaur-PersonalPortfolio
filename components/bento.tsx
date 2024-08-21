@@ -86,12 +86,12 @@ const SkeletonOne = () => {
         variants={variants}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white dark:bg-black"
       >
-        <div className="h-5 w-5 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
+        <div className="h-5 w-5 rounded-full bg-gradient-to-r from-orange-400 to-pink-300 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
-          <p className="sm:text-sm text-xs text-center font-semibold text-neutral-600 font-sans antialiased">
+          <p className="sm:text-sm text-xs text-center font-semibold text-black font-sans antialiased">
             Fullname:
           </p>
-          <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 font-sans antialiased">
+          <p className="sm:text-sm text-xs text-center font-semibold text-cyan-90 font-sans antialiased">
             Arshnoor Kaur
           </p>
         </div>
@@ -100,7 +100,7 @@ const SkeletonOne = () => {
         variants={variantsSecond}
         className="flex flex-row rounded-full border p-2 items-center space-x-2 bg-transparent bg-white dark:bg-black"
       >
-        <div className="h-5 w-5 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
+        <div className="h-5 w-5 rounded-full bg-gradient-to-r from-lime-500 to-cyan-400 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
           <p className="text-slate-900 font-semibold text-xs md:text-sm font-sans antialiased">
             Birthdate:
@@ -114,7 +114,7 @@ const SkeletonOne = () => {
         variants={variants}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white dark:bg-black"
       >
-        <div className="h-5 w-5 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
+        <div className="h-5 w-5 rounded-full bg-gradient-to-r from-purple-600 to-cyan-400 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
           <p className="text-slate-900 font-semibold text-xs md:text-sm font-sans antialiased">
             Email:
@@ -343,6 +343,65 @@ const SkeletonFour = () => {
     </motion.div>
   );
 };
+// const SkeletonFive = () => {
+//   const variants = {
+//     initial: {
+//       x: 0,
+//     },
+//     animate: {
+//       x: 10,
+//       rotate: 5,
+//       transition: {
+//         duration: 0.2,
+//       },
+//     },
+//   };
+//   const variantsSecond = {
+//     initial: {
+//       x: 0,
+//     },
+//     animate: {
+//       x: -10,
+//       rotate: -5,
+//       transition: {
+//         duration: 0.2,
+//       },
+//     },
+//   };
+
+//   return (
+//     <motion.div
+//       initial="initial"
+//       whileHover="animate"
+//       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
+//     >
+//       <motion.div
+//         variants={variants}
+//         className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2  items-start space-x-2 bg-white dark:bg-black"
+//       >
+//         <Image
+//           src="url('https://www.duboischemicals.com/wp-content/uploads/2019/09/McMaster-Logo-1.png')"
+//           alt="avatar"
+//           height="100"
+//           width="100"
+//           className="rounded-full h-10 w-10"
+//         />
+//         <p className="text-xs text-neutral-500">
+//           There are a lot of cool framerworks out there like React, Angular,
+//           Vue, Svelte that can make your life ....
+//         </p>
+//       </motion.div>
+//       <motion.div
+//         variants={variantsSecond}
+//         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center justify-end space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
+//       >
+//         <p className="text-xs text-neutral-500">Use PHP.</p>
+//         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
+//       </motion.div>
+//     </motion.div>
+//   );
+// };
+
 const SkeletonFive = () => {
   const variants = {
     initial: {
@@ -377,19 +436,26 @@ const SkeletonFive = () => {
     >
       <motion.div
         variants={variants}
-        className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2  items-start space-x-2 bg-white dark:bg-black"
+        className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2 items-start space-x-2 bg-white dark:bg-black"
       >
         <Image
-          src="/FallbyNoor.jpeg"
+          src="/McMasterLogo.jpg" // Corrected URL
           alt="avatar"
-          height="100"
-          width="100"
+          height={100} // Height should be a number
+          width={100} // Width should be a number
           className="rounded-full h-10 w-10"
         />
-        <p className="text-xs text-neutral-500">
-          There are a lot of cool framerworks out there like React, Angular,
-          Vue, Svelte that can make your life ....
-        </p>
+        <div className="flex flex-col">
+          <p className="text-xs text-black font-bold antialiased">
+            Bachelors Degree
+          </p>
+          <p className="text-xs text-zinc-700 antialiased">
+            Bachelors of Applied Sciences in Computer Science
+          </p>
+          <p className="text-xs text-slate-500 antialiased">
+            Expected graduation (2027)
+          </p>
+        </div>
       </motion.div>
       <motion.div
         variants={variantsSecond}
@@ -401,6 +467,7 @@ const SkeletonFive = () => {
     </motion.div>
   );
 };
+
 const items = [
   {
     title: "Profile",
@@ -449,12 +516,7 @@ const items = [
   },
 
   {
-    title: "Text Summarization",
-    description: (
-      <span className="text-sm">
-        Summarize your lengthy documents with AI technology.
-      </span>
-    ),
+    title: "Background Education",
     header: <SkeletonFive />,
     className: "md:col-span-1",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
