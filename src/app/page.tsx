@@ -13,7 +13,7 @@ import { NavbarDemo } from "../../components/navbar";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-black justify-between p-2">
+    <main className="flex min-h-screen flex-col items-center bg-black justify-between p-6">
       <ShootingStars />
       <NavbarDemo />
       <HeroScrollDemo />
