@@ -31,6 +31,71 @@
 //     </div>
 //   );
 // }
+
+// import React, { useEffect, useRef } from "react";
+// import { ContainerScroll } from "./ui/container-scroll-animation";
+// import Image from "next/image";
+// import { motion } from "framer-motion";
+
+// const ParallaxImage = () => {
+//   const ref = useRef<HTMLDivElement>(null);
+
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       if (ref.current) {
+//         ref.current.style.transform = `translateY(${window.scrollY * 0.5}px)`;
+//       }
+//     };
+
+//     window.addEventListener("scroll", handleScroll);
+//     return () => window.removeEventListener("scroll", handleScroll);
+//   }, []);
+
+//   return (
+//     <div
+//       ref={ref}
+//       className="relative inset-0 bg-cover bg-center"
+//       style={{ backgroundImage: "url('/public/next.svg')" }}
+//     />
+//   );
+// };
+
+// export function HeroScrollDemo() {
+//   return (
+//     <div className="relative flex flex-col overflow-hidden mb-1">
+//       {" "}
+//       {/* Added margin-bottom */}
+//       <ParallaxImage />
+//       <ContainerScroll
+//         titleComponent={
+//           <>
+//             <motion.h1
+//               initial={{ opacity: 0, y: 20 }}
+//               animate={{ opacity: 1, y: 0 }}
+//               transition={{ duration: 1 }}
+//               className="relative text-4xl font-semibold text-white dark:text-white z-10 mb-9"
+//             >
+//               Welcome to my space, this is <br />
+//               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+//                 Arshnoor Kaur
+//               </span>
+//             </motion.h1>
+//           </>
+//         }
+//       >
+//         <Image
+//           src={"/FallbyNoor.jpeg"}
+//           alt="my image"
+//           height={720}
+//           width={1400}
+//           className="rounded-2xl object-cover h-full object-left-top"
+//           draggable={false}
+//         />
+//       </ContainerScroll>
+//     </div>
+//   );
+// }
+
 import React, { useEffect, useRef } from "react";
 import { ContainerScroll } from "./ui/container-scroll-animation";
 import Image from "next/image";
@@ -75,7 +140,7 @@ export function HeroScrollDemo() {
               className="relative text-4xl font-semibold text-white dark:text-white z-10 mb-9"
             >
               Welcome to my space, this is <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-teal-400">
                 Arshnoor Kaur
               </span>
             </motion.h1>
@@ -87,7 +152,7 @@ export function HeroScrollDemo() {
           alt="my image"
           height={720}
           width={1400}
-          className="mx-auto rounded-2xl object-cover h-full object-left-top"
+          className="rounded-2xl object-cover h-full object-left-top"
           draggable={false}
         />
       </ContainerScroll>

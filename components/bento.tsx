@@ -11,20 +11,42 @@ import {
 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { Spotlight } from "./spotlight";
+
+// export function BentoGridThirdDemo() {
+//   return (
+//     <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
+//       {items.map((item, i) => (
+//         <BentoGridItem
+//           key={i}
+//           title={item.title}
+//           description={item.description}
+//           header={item.header}
+//           className={cn("[&>p:text-lg]", item.className)}
+//         />
+//       ))}
+//     </BentoGrid>
+//   );
+// }
 
 export function BentoGridThirdDemo() {
   return (
-    <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[20rem]">
-      {items.map((item, i) => (
-        <BentoGridItem
-          key={i}
-          title={item.title}
-          description={item.description}
-          header={item.header}
-          className={cn("[&>p:text-lg]", item.className)}
-        />
-      ))}
-    </BentoGrid>
+    <div className="max-w-4xl mx-auto">
+      <h2 className="mb-10  text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-50 to-teal-200 bg-opacity-50">
+        About Me
+      </h2>
+      <BentoGrid className="md:auto-rows-[20rem] ">
+        {items.map((item, i) => (
+          <BentoGridItem
+            key={i}
+            title={item.title}
+            description={item.description}
+            header={item.header}
+            className={cn("[&>p:text-lg]", item.className)}
+          />
+        ))}
+      </BentoGrid>
+    </div>
   );
 }
 
@@ -41,6 +63,7 @@ const SkeletonOne = () => {
       },
     },
   };
+
   const variantsSecond = {
     initial: {
       x: 0,
@@ -57,12 +80,11 @@ const SkeletonOne = () => {
   return (
     <motion.div
       initial="initial"
-      whileHover="animate-spin"
       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
     >
       <motion.div
         variants={variants}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-white dark:bg-black"
+        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white dark:bg-black"
       >
         <div className="h-5 w-5 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
@@ -70,7 +92,7 @@ const SkeletonOne = () => {
             Fullname:
           </p>
           <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 font-sans antialiased">
-            Arshnoor Kaur{" "}
+            Arshnoor Kaur
           </p>
         </div>
       </motion.div>
@@ -79,7 +101,7 @@ const SkeletonOne = () => {
         className="flex flex-row rounded-full border p-2 items-center space-x-2 bg-transparent bg-white dark:bg-black"
       >
         <div className="h-5 w-5 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
-        <div className="w-full h-4  rounded-full dark:bg-neutral-900 flex flex-row">
+        <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
           <p className="text-slate-900 font-semibold text-xs md:text-sm font-sans antialiased">
             Birthdate:
           </p>
@@ -97,14 +119,21 @@ const SkeletonOne = () => {
           <p className="text-slate-900 font-semibold text-xs md:text-sm font-sans antialiased">
             Email:
           </p>
-          <p className="text-cyan-900 font-semibold text-xs md:text-sm font-sans antialiased">
+          <a
+            href="mailto:kaura69@mcmaster.ca"
+            className="text-cyan-900 underline font-semibold text-xs md:text-sm font-sans antialiased"
+            style={{ pointerEvents: "auto", zIndex: 10 }} // Ensure pointer-events and z-index
+          >
             kaura69@mcmaster.ca
-          </p>
+          </a>
         </div>
       </motion.div>
     </motion.div>
   );
 };
+
+export default SkeletonOne;
+
 // const SkeletonTwo = () => {
 //   const variants = {
 //     initial: {
@@ -159,6 +188,9 @@ const SkeletonTwo = () => {
   // Array of texts to display in each bar
   const texts = ["Python", "HTML, CSS", "React", "Java", "C", "MS Office"];
 
+  // Array of custom widths for each bar
+  const widths = ["40%", "70%", "80%", "60%", "80%", "80%"];
+
   const arr = new Array(6).fill(0);
 
   return (
@@ -167,12 +199,12 @@ const SkeletonTwo = () => {
         <div
           key={"skeleton-two-" + i}
           style={{
-            maxWidth: Math.random() * (100 - 40) + 40 + "%",
+            width: widths[i % widths.length], // Apply custom width
           }}
-          className="flex items-center rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 bg-white dark:bg-black w-full h-4 relative"
+          className="flex items-center rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 bg-white dark:bg-black h-4 relative"
         >
           <span
-            className={`absolute inset-0 flex items-center justify-left pl-2 font-sans text-sm sm:text-xs font-bold ${
+            className={`absolute inset-0 flex items-center justify-left p-2 antialiased font-sans font-bold text-sm sm:text-xs ${
               colors[i % colors.length]
             }`}
           >
@@ -220,13 +252,16 @@ const SkeletonThree = () => {
     <a
       href="https://www.credly.com/badges/b64c1f02-8a70-4960-a35c-7aafafc5487c/public_url" // Replace with your desired URL
       target="_blank" // Opens the link in a new tab
-      className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2"
+      className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2 relative"
       style={{
         backgroundImage:
           "url('https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png')",
-        backgroundSize: "contain", // Or "cover", depending on your preference
+        backgroundSize: "contain", // Adjust to "contain" to fit the image within the container
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        display: "block", // Ensure the link is a block-level element
+        width: "100%", // Ensure the container takes full width
+        height: "100%", // Ensure the container takes full height
       }}
     >
       <div className="h-full w-full rounded-lg"></div>
@@ -240,19 +275,11 @@ const SkeletonFour = () => {
       x: 20,
       rotate: -5,
     },
-    hover: {
-      x: 0,
-      rotate: 0,
-    },
   };
   const second = {
     initial: {
       x: -20,
       rotate: 5,
-    },
-    hover: {
-      x: 0,
-      rotate: 0,
     },
   };
   return (
@@ -396,7 +423,6 @@ const items = [
     ),
     header: <SkeletonTwo />,
     className: "md:col-span-1",
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Certifications",
@@ -410,7 +436,6 @@ const items = [
     ),
     header: <SkeletonThree />,
     className: "md:col-span-1",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Sentiment Analysis",
@@ -421,7 +446,6 @@ const items = [
     ),
     header: <SkeletonFour />,
     className: "md:col-span-2",
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
 
   {
