@@ -17,10 +17,10 @@ export default function Home() {
       <ShootingStars />
       <NavbarDemo />
       <HeroScrollDemo />
+      <StarsBackground />
       {/* <SpotlightPreview /> */}
       <BentoGridThirdDemo />
       <SpotlightPreviewExp />
-      <StarsBackground />
 
       {/* <Timeline /> */}
 

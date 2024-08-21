@@ -64,7 +64,7 @@ const SkeletonOne = () => {
         variants={variants}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-white dark:bg-black"
       >
-        <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
+        <div className="h-5 w-5 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
           <p className="sm:text-sm text-xs text-center font-semibold text-neutral-600 font-sans antialiased">
             Fullname:
@@ -78,7 +78,7 @@ const SkeletonOne = () => {
         variants={variantsSecond}
         className="flex flex-row rounded-full border p-2 items-center space-x-2 bg-transparent bg-white dark:bg-black"
       >
-        <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
+        <div className="h-5 w-5 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
         <div className="w-full h-4  rounded-full dark:bg-neutral-900 flex flex-row">
           <p className="text-slate-900 font-semibold text-xs md:text-sm font-sans antialiased">
             Birthdate:
@@ -92,7 +92,7 @@ const SkeletonOne = () => {
         variants={variants}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white dark:bg-black"
       >
-        <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
+        <div className="h-5 w-5 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
           <p className="text-slate-900 font-semibold text-xs md:text-sm font-sans antialiased">
             Email:
@@ -138,42 +138,62 @@ const SkeletonTwo = () => {
           style={{
             maxWidth: Math.random() * (100 - 40) + 40 + "%",
           }}
-          className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-black w-full h-4"
+          className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-700 dark:bg-black w-full h-4"
         ></motion.div>
       ))}
     </motion.div>
   );
 };
+// const SkeletonThree = () => {
+//   const variants = {
+//     initial: {
+//       backgroundPosition: "0 50%",
+//     },
+//     animate: {
+//       backgroundPosition: ["0, 50%", "100% 50%", "0 50%"],
+//     },
+//   };
+//   return (
+//     <motion.div
+//       initial="initial"
+//       animate="animate"
+//       variants={variants}
+//       transition={{
+//         duration: 5,
+//         repeat: Infinity,
+//         repeatType: "reverse",
+//       }}
+//       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2"
+//       style={{
+//         background:
+//           "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
+//         backgroundSize: "400% 400%",
+//       }}
+//     >
+//       <motion.div className="h-full w-full rounded-lg"></motion.div>
+//     </motion.div>
+//   );
+// };
+
 const SkeletonThree = () => {
-  const variants = {
-    initial: {
-      backgroundPosition: "0 50%",
-    },
-    animate: {
-      backgroundPosition: ["0, 50%", "100% 50%", "0 50%"],
-    },
-  };
   return (
-    <motion.div
-      initial="initial"
-      animate="animate"
-      variants={variants}
-      transition={{
-        duration: 5,
-        repeat: Infinity,
-        repeatType: "reverse",
-      }}
+    <a
+      href="https://www.credly.com/badges/b64c1f02-8a70-4960-a35c-7aafafc5487c/public_url" // Replace with your desired URL
+      target="_blank" // Opens the link in a new tab
       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2"
       style={{
-        background:
-          "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
-        backgroundSize: "400% 400%",
+        backgroundImage:
+          "url('https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png')",
+        backgroundSize: "contain", // Or "cover", depending on your preference
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
-      <motion.div className="h-full w-full rounded-lg"></motion.div>
-    </motion.div>
+      <div className="h-full w-full rounded-lg"></div>
+    </a>
   );
 };
+
 const SkeletonFour = () => {
   const first = {
     initial: {
@@ -339,7 +359,7 @@ const items = [
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Contextual Suggestions",
+    title: "Certifications",
     description: (
       <span className="text-sm">
         Get AI-powered suggestions based on your writing context.
