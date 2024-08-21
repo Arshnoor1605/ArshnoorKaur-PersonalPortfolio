@@ -22,7 +22,6 @@ export function BentoGridThirdDemo() {
           description={item.description}
           header={item.header}
           className={cn("[&>p:text-lg]", item.className)}
-          icon={item.icon}
         />
       ))}
     </BentoGrid>
@@ -58,7 +57,7 @@ const SkeletonOne = () => {
   return (
     <motion.div
       initial="initial"
-      whileHover="animate"
+      whileHover="animate-spin"
       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
     >
       <motion.div
@@ -66,21 +65,42 @@ const SkeletonOne = () => {
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-white dark:bg-black"
       >
         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
-        <div className="w-full bg-yellow-100 h-4 rounded-full dark:bg-neutral-900" />
+        <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
+          <p className="text-slate-900 font-semibold text-base md:text-xs font-mono antialiased">
+            Fullname:
+          </p>
+          <p className="text-cyan-900 font-semibold text-base md:text-xs font-mono antialiased">
+            Arshnoor Kaur{" "}
+          </p>
+        </div>
       </motion.div>
       <motion.div
         variants={variantsSecond}
-        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 w-3/4 ml-auto bg-white dark:bg-black"
+        className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white dark:bg-black"
       >
-        <div className="w-full bg-yellow-100 h-4 rounded-full dark:bg-neutral-900" />
         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
+        <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
+          <p className="text-slate-900 font-semibold text-base md:text-xs font-mono antialiased">
+            Birthdate:
+          </p>
+          <p className="text-cyan-900 font-semibold text-base md:text-xs font-mono antialiased">
+            May 16th, 2004
+          </p>
+        </div>
       </motion.div>
       <motion.div
         variants={variants}
         className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 items-center space-x-2 bg-white dark:bg-black"
       >
         <div className="h-6 w-6 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 flex-shrink-0" />
-        <div className="w-full bg-yellow-100 h-4 rounded-full dark:bg-neutral-900" />
+        <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
+          <p className="text-slate-900 font-semibold text-base md:text-xs font-mono antialiased">
+            Email:
+          </p>
+          <p className="text-cyan-900 font-semibold text-base md:text-xs font-mono antialiased">
+            kaura69@mcmaster.ca
+          </p>
+        </div>
       </motion.div>
     </motion.div>
   );
@@ -296,15 +316,15 @@ const SkeletonFive = () => {
 };
 const items = [
   {
-    title: "AI Content Generation",
+    title: "Profile",
     description: (
       <span className="text-sm">
-        Experience the power of AI in generating unique content.
+        Currently I'm a 3rd year computer science student at McMaster
+        University.
       </span>
     ),
     header: <SkeletonOne />,
     className: "md:col-span-1",
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "Skills",
