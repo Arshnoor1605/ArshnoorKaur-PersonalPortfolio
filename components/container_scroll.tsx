@@ -74,10 +74,9 @@ export function HeroScrollDemo() {
               transition={{ duration: 1 }}
               className="relative text-4xl font-semibold text-white dark:text-white z-10 mb-9"
             >
-              Welcome to my space—where Arshnoor’s innovative code turns visions{" "}
-              <br />
+              Welcome to my space, this is <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                into vibrant realities.
+                Arshnoor Kaur
               </span>
             </motion.h1>
           </>
