@@ -294,40 +294,46 @@ const SkeletonFour = () => {
         className="h-full w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
       >
         <Image
-          src="/FallbyNoor.jpeg"
+          src="/Linkedin.png.webp"
           alt="avatar"
-          height="100"
-          width="100"
-          className="rounded-full h-10 w-10"
+          height="90"
+          width="90"
+          className="rounded-xl h-10 w-10"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-          Just code in Vanilla Javascript
+          LinkedIn
         </p>
-        <p className="border border-red-500 bg-red-100 dark:bg-red-900/20 text-red-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Delusional
-        </p>
+        <a
+          href="https://www.linkedin.com/in/arshnoor-kaur1605"
+          className="border border-blue-800 bg-blue-800 dark:bg-red-900/20 text-white text-xs rounded-full px-2 py-0.5 mt-4"
+        >
+          Myprofile
+        </a>
       </motion.div>
       <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
         <Image
-          src="/FallbyNoor.jpeg"
+          src="/Resume.png"
           alt="avatar"
           height="100"
           width="100"
           className="rounded-full h-10 w-10"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-          Tailwind CSS is cool, you know
+          Here is my resume
         </p>
-        <p className="border border-green-500 bg-green-100 dark:bg-green-900/20 text-green-600 text-xs rounded-full px-2 py-0.5 mt-4">
-          Sensible
-        </p>
+        <a
+          href="https://drive.google.com/file/d/1QLzJcLgDvDQ8Ufr_8PHQmQLudGPqLAQ2/view?usp=share_link"
+          className="border border-green-500 bg-green-500 dark:bg-green-900/20 text-white text-xs items-center justify-center rounded-full px-2 py-0.5 mt-4"
+        >
+          Resume
+        </a>
       </motion.div>
       <motion.div
         variants={second}
         className="h-full w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
       >
         <Image
-          src="/FallbyNoor.jpeg"
+          src="/githubLogo.jpg"
           alt="avatar"
           height="100"
           width="100"
