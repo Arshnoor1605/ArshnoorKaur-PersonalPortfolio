@@ -34,7 +34,7 @@
 import React from "react";
 const Footer = () => {
   return (
-    <footer className="-mb-10 rounded-lg shadow m-4 dark:bg-gray-800 md:p-6">
+    <footer className="relative bottom-0 rounded-lg shadow m-4 dark:bg-gray-800 md:p-6">
       <div className="w-full mx-auto max-w-screen-xl p-4  md:flex md:items-center bg-transparent md:justify-between">
         <span className="text-sm text-center text-gray-100 sm:text-center dark:text-gray-400 m-4">
           © 2024{" "}
