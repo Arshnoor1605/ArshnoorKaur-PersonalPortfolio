@@ -105,45 +105,85 @@ const SkeletonOne = () => {
     </motion.div>
   );
 };
+// const SkeletonTwo = () => {
+//   const variants = {
+//     initial: {
+//       width: 0,
+//     },
+//     animate: {
+//       width: "100%",
+//       transition: {
+//         duration: 0.2,
+//       },
+//     },
+//     hover: {
+//       width: ["0%", "100%"],
+//       transition: {
+//         duration: 2,
+//       },
+//     },
+//   };
+//   const arr = new Array(6).fill(0);
+//   return (
+//     <motion.div
+//       initial="initial"
+//       animate="animate"
+//       whileHover="hover"
+//       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
+//     >
+//       {arr.map((_, i) => (
+//         <motion.div
+//           key={"skelenton-two" + i}
+//           variants={variants}
+//           style={{
+//             maxWidth: Math.random() * (100 - 40) + 40 + "%",
+//           }}
+//           className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2
+//           items-center space-x-2 bg-white  dark:bg-black w-full h-4"
+//         ></motion.div>
+//       ))}
+//     </motion.div>
+//   );
+// };
 const SkeletonTwo = () => {
-  const variants = {
-    initial: {
-      width: 0,
-    },
-    animate: {
-      width: "100%",
-      transition: {
-        duration: 0.2,
-      },
-    },
-    hover: {
-      width: ["0%", "100%"],
-      transition: {
-        duration: 2,
-      },
-    },
-  };
+  // Array of colors for text
+  const colors = [
+    "text-red-500",
+    "text-blue-500",
+    "text-green-500",
+    "text-yellow-500",
+    "text-purple-500",
+    "text-pink-500",
+  ];
+
+  // Array of texts to display in each bar
+  const texts = ["Python", "HTML, CSS", "React", "Java", "C", "MS Office"];
+
   const arr = new Array(6).fill(0);
+
   return (
-    <motion.div
-      initial="initial"
-      animate="animate"
-      whileHover="hover"
-      className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
-    >
+    <div className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2">
       {arr.map((_, i) => (
-        <motion.div
-          key={"skelenton-two" + i}
-          variants={variants}
+        <div
+          key={"skeleton-two-" + i}
           style={{
             maxWidth: Math.random() * (100 - 40) + 40 + "%",
           }}
-          className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-white  dark:bg-black w-full h-4"
-        ></motion.div>
+          className="flex items-center rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 bg-white dark:bg-black w-full h-4 relative"
+        >
+          <span
+            className={`absolute inset-0 flex items-center justify-left pl-2 font-sans text-sm sm:text-xs font-bold ${
+              colors[i % colors.length]
+            }`}
+          >
+            {texts[i % texts.length]}
+          </span>
+        </div>
       ))}
-    </motion.div>
+    </div>
   );
 };
+
 // const SkeletonThree = () => {
 //   const variants = {
 //     initial: {
