@@ -138,7 +138,7 @@ const SkeletonTwo = () => {
           style={{
             maxWidth: Math.random() * (100 - 40) + 40 + "%",
           }}
-          className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-700 dark:bg-black w-full h-4"
+          className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-white  dark:bg-black w-full h-4"
         ></motion.div>
       ))}
     </motion.div>
@@ -361,8 +361,11 @@ const items = [
   {
     title: "Certifications",
     description: (
-      <span className="text-sm">
-        Get AI-powered suggestions based on your writing context.
+      <span className="text-xs">
+        I am pleased to hold the AWS Cloud Practitioner certification, which
+        underscores my foundational knowledge of cloud computing and Amazon Web
+        Services (AWS). This certification validates my understanding of
+        essential AWS services, cloud concepts, security, and pricing models
       </span>
     ),
     header: <SkeletonThree />,
