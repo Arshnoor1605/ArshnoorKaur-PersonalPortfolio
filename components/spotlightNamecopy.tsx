@@ -42,7 +42,7 @@ export function SpotlightPreviewExp() {
       <div className="max-w-7xl mx-auto relative z-10 w-full md:pt-6">
         {" "}
         {/* Adjusted padding */}
-        <h1 className="m-10 text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-50 to-teal-200 bg-opacity-50">
+        <h1 className="mb-10 text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-50 to-teal-200 bg-opacity-50">
           Experience
         </h1>
         <Timeline />
