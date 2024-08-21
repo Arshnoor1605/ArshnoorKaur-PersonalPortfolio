@@ -140,7 +140,7 @@ export function HeroScrollDemo() {
               className="relative text-4xl font-semibold text-white dark:text-white z-10 mb-9"
             >
               Welcome to my space, this is <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-teal-400">
+              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-cyan-300">
                 Arshnoor Kaur
               </span>
             </motion.h1>
