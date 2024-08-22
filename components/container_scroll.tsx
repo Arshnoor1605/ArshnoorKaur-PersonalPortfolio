@@ -174,7 +174,7 @@ import { motion } from "framer-motion";
 
 export function HeroScrollDemo() {
   return (
-    <div className="relative flex flex-col overflow-hidden mb-[-5rem] w-full ">
+    <div className="relative flex flex-col overflow-hidden mt-[3rem] mb-[-5rem] w-full ">
       <ParallaxImage />
       <ContainerScroll
         titleComponent={
