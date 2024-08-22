@@ -21,7 +21,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
     <time className="text-base sm:text-sm mb-1 ml-3 font-extrabold leading-none text-white dark:text-gray-500 antialiased">
       {date}
     </time>
-    <h3 className="text-base sm:text-sm font-sans font-semibold text-white dark:text-white antialiased">
+    <h3 className="text-base sm:text-sm font-sans font-semibold text-neutral-300 dark:text-white antialiased">
       {title}
     </h3>
     <p className="text-sm sm:text-xs mb-4 font-sans text-white dark:text-gray-400 antialiased">
@@ -56,20 +56,25 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
 const Timeline: React.FC = () => (
   <ol className="relative border-s border-stone-300 dark:border-gray-700">
     <TimelineItem
-      date="February 2022"
-      title="Application UI code in Tailwind CSS"
+      date="May 2024 - August 2024"
+      title="Software Development Intern (co-op) - Fondation STaBL Foundation"
       description="loremId enim irure mollit voluptate. Culpa amet exercitation veniam velit incididunt fugiat non excepteur officia veniam reprehenderit proident. Aliqua ullamco laborum ipsum officia enim esse anim. Consequat quis tempor cupidatat sit ex irure deserunt ea. Eiusmod mollit dolor anim in qui quis in est ut do aute laboris consequat. Magna qui ipsum magna reprehenderit anim sunt eu fugiat veniam adipisicing non velit. Irure eiusmod non sunt voluptate officia id voluptate reprehenderit eiusmod labore non minim."
       link="#"
       linkText="Learn more"
     />
     <TimelineItem
-      date="March 2022"
-      title="Marketing UI design in Figma"
+      date="May 2024 - August 2024"
+      title="Outreach Instructor (co-op) - Fondation STaBL Foundation"
       description="Esse mollit cupidatat aliqua et tempor adipisicing quis duis aliquip duis aliquip consequat velit. Cillum in ad amet pariatur magna dolor est reprehenderit officia est ea non labore ad. In ipsum proident proident eiusmod eiusmod. Quis do cillum est et non in laborum laboris officia consequat. Dolore qui eu cillum consequat duis incididunt laboris est non ut est dolor.Velit ad voluptate dolor ipsum eiusmod mollit non fugiat. Occaecat aliquip magna do duis exercitation. Enim officia ea non esse culpa ex elit aute do. Cupidatat proident ipsum dolor ullamco sunt ad ullamco laboris consequat ad et ad. Adipisicing aliqua labore do duis nisi. Occaecat ad ea laboris sit officia."
     />
     <TimelineItem
-      date="April 2022"
-      title="E-Commerce UI code in Tailwind CSS"
+      date="January 2024 - May 2024"
+      title="Software Developer - Fondation STaBL Foundation"
+      description="Sit elit velit commodo nostrud cupidatat esse nulla et pariatur culpa qui incididunt labore exercitation. Exercitation dolor est est ex exercitation in. Aliquip proident sunt irure eiusmod sit enim aliqua nostrud dolore quis ea.Sint pariatur elit officia pariatur laborum tempor occaecat reprehenderit mollit tempor veniam nostrud. Sint qui non aliqua deserunt id. Aliqua ullamco non consequat voluptate exercitation fugiat sint aliqua. Reprehenderit consectetur excepteur nostrud officia anim irure est. Pariatur quis ex duis cillum aute cillum enim."
+    />
+    <TimelineItem
+      date="January 2024 - Present"
+      title="Vice President External - McMaster Start Coding"
       description="Sit elit velit commodo nostrud cupidatat esse nulla et pariatur culpa qui incididunt labore exercitation. Exercitation dolor est est ex exercitation in. Aliquip proident sunt irure eiusmod sit enim aliqua nostrud dolore quis ea.Sint pariatur elit officia pariatur laborum tempor occaecat reprehenderit mollit tempor veniam nostrud. Sint qui non aliqua deserunt id. Aliqua ullamco non consequat voluptate exercitation fugiat sint aliqua. Reprehenderit consectetur excepteur nostrud officia anim irure est. Pariatur quis ex duis cillum aute cillum enim."
     />
   </ol>
