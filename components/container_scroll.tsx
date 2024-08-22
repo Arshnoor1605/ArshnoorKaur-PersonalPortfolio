@@ -147,12 +147,20 @@ export function HeroScrollDemo() {
           </>
         }
       >
-        <Image
+        {/* <Image
           src={"/FallbyNoor.jpeg"}
           alt="my image"
           height={720}
           width={1400}
           className="rounded-2xl object-cover h-full object-left-top"
+          draggable={false}
+        /> */}
+        <Image
+          src="/FallbyNoor.jpeg"
+          alt="my image"
+          height={720}
+          width={1400}
+          className="rounded-2xl object-cover h-auto w-full sm:h-full sm:w-full"
           draggable={false}
         />
       </ContainerScroll>
