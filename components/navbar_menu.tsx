@@ -28,7 +28,7 @@ export const MenuItem = ({
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-white hover:opacity-[0.9] dark:text-white"
+        className="cursor-pointer text-white hover:opacity-[1] dark:text-white"
       >
         {item}
       </motion.p>
@@ -43,7 +43,7 @@ export const MenuItem = ({
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
-                className=" bg-opacity-20 dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
+                className=" dark:bg-black backdrop-blur-sm bg-opacity-80 bg-emerald-900 rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2]"
               >
                 <motion.div
                   layout // layout ensures smooth animation
@@ -70,7 +70,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative bg-white text-lg font-bold from-neutral-400 bg-opacity-15 rounded-full dark:bg-black dark:border-white/[0.2] shadow-input flex justify-center space-x-14  py-6 "
+      className="relative text-base font-sans font-semibold backdrop-blur-sm bg-opacity-80 bg-emerald-900 rounded-full dark:bg-black dark:border-white/[0.2] shadow-input flex justify-center space-x-16  py-3 "
     >
       {children}
     </nav>
@@ -89,7 +89,7 @@ export const ProductItem = ({
   src: string;
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
+    <Link href={href} className=" flex space-x-2">
       <Image
         src={src}
         width={140}
