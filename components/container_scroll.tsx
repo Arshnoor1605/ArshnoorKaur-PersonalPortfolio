@@ -161,7 +161,6 @@ export function HeroScrollDemo() {
           height={720}
           width={1400}
           className="rounded-2xl object-cover h-auto w-full sm:h-full sm:w-full"
-          draggable={false}
         />
       </ContainerScroll>
     </div>
