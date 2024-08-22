@@ -96,10 +96,10 @@
 //   );
 // }
 
-import React, { useEffect, useRef } from "react";
-import { ContainerScroll } from "./ui/container-scroll-animation";
-import Image from "next/image";
-import { motion } from "framer-motion";
+// import React, { useEffect, useRef } from "react";
+// import { ContainerScroll } from "./ui/container-scroll-animation";
+// import Image from "next/image";
+// import { motion } from "framer-motion";
 
 const ParallaxImage = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -124,43 +124,79 @@ const ParallaxImage = () => {
   );
 };
 
+// export function HeroScrollDemo() {
+//   return (
+//     <div className="relative flex flex-col overflow-hidden mb-1">
+//       {" "}
+//       {/* Added margin-bottom */}
+//       <ParallaxImage />
+//       <ContainerScroll
+//         titleComponent={
+//           <>
+//             <motion.h1
+//               initial={{ opacity: 0, y: 20 }}
+//               animate={{ opacity: 1, y: 0 }}
+//               transition={{ duration: 1 }}
+//               className="relative text-4xl font-semibold text-white dark:text-white z-10 mb-9"
+//             >
+//               Welcome to my space, this is <br />
+//               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-cyan-300">
+//                 Arshnoor Kaur
+//               </span>
+//             </motion.h1>
+//           </>
+//         }
+//       >
+//         {/* <Image
+//           src={"/FallbyNoor.jpeg"}
+//           alt="my image"
+//           height={720}
+//           width={1400}
+//           className="rounded-2xl object-cover h-full object-left-top"
+//           draggable={false}
+//         /> */}
+//         <Image
+//           src="/FallbyNoor.jpeg"
+//           alt="my image"
+//           height={720}
+//           width={1400}
+//           className="rounded-2xl object-cover h-auto w-full sm:h-full sm:w-full"
+//         />
+//       </ContainerScroll>
+//     </div>
+//   );
+// }
+
+import React, { useEffect, useRef } from "react";
+import { ContainerScroll } from "./ui/container-scroll-animation";
+import Image from "next/image";
+import { motion } from "framer-motion";
+
 export function HeroScrollDemo() {
   return (
-    <div className="relative flex flex-col overflow-hidden mb-1">
-      {" "}
-      {/* Added margin-bottom */}
+    <div className="relative flex flex-col overflow-hidden mb-[-5rem] w-full ">
       <ParallaxImage />
       <ContainerScroll
         titleComponent={
-          <>
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1 }}
-              className="relative text-4xl font-semibold text-white dark:text-white z-10 mb-9"
-            >
-              Welcome to my space, this is <br />
-              <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none text-cyan-300">
-                Arshnoor Kaur
-              </span>
-            </motion.h1>
-          </>
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            className="relative text-4xl text-sans font-semibold text-white dark:text-white z-10 mb-[2rem]" // Added negative margin-bottom
+          >
+            Welcome to my space, this is <br />
+            <span className="text-4xl md:text-[6rem] text-sans font-bold mt-1 leading-none text-cyan-300 text-opacity-45">
+              Arshnoor Kaur
+            </span>
+          </motion.h1>
         }
       >
-        {/* <Image
-          src={"/FallbyNoor.jpeg"}
-          alt="my image"
-          height={720}
-          width={1400}
-          className="rounded-2xl object-cover h-full object-left-top"
-          draggable={false}
-        /> */}
         <Image
           src="/FallbyNoor.jpeg"
           alt="my image"
           height={720}
           width={1400}
-          className="rounded-2xl object-cover h-auto w-full sm:h-full sm:w-full"
+          className="rounded-2xl object-cover h-auto w-full" // Ensure full width and auto height
         />
       </ContainerScroll>
     </div>

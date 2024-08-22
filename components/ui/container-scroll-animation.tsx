@@ -36,7 +36,7 @@ export const ContainerScroll = ({
 
   return (
     <div
-      className="h-[60rem] md:h-[80rem] flex items-center justify-center relative p-2 md:p-20"
+      className="h-[40rem] md:h-[64rem] flex items-center justify-center relative p-2 md:p-20"
       ref={containerRef}
     >
       <div
@@ -67,14 +67,42 @@ export const Header = ({ translate, titleComponent }: any) => {
   );
 };
 
+// export const Card = ({
+//   rotate,
+//   scale,
+//   children,
+// }: {
+//   rotate: MotionValue<number>;
+//   scale: MotionValue<number>;
+//   translate: MotionValue<number>;
+//   children: React.ReactNode;
+// }) => {
+//   return (
+//     <motion.div
+//       style={{
+//         rotateX: rotate,
+//         scale,
+//         boxShadow:
+//           "0 0 #0000004d, 0 9px 20px #0000004a, 0 37px 37px #00000042, 0 84px 50px #00000026, 0 149px 60px #0000000a, 0 233px 65px #00000003",
+//       }}
+//       className="max-w-5xl -mt-12 mx-auto h-[full] md:h-[40rem] w-full border-4 border-[#6C6C6C] md:p-2 bg-[#222222] rounded-[30px] shadow-2xl"
+//     >
+//       <div className=" h-full w-full  overflow-hidden rounded-2xl bg-transparent dark:bg-zinc-900 md:rounded-2xl md:p-2 ">
+//         {children}
+//       </div>
+//     </motion.div>
+//   );
+// };
+
 export const Card = ({
   rotate,
   scale,
+  translate, // Added translate prop to match the destructuring
   children,
 }: {
   rotate: MotionValue<number>;
   scale: MotionValue<number>;
-  translate: MotionValue<number>;
+  translate: MotionValue<number>; // Added translate prop to match the destructuring
   children: React.ReactNode;
 }) => {
   return (
@@ -82,12 +110,14 @@ export const Card = ({
       style={{
         rotateX: rotate,
         scale,
+        translateY: translate, // Apply the translateY style
         boxShadow:
           "0 0 #0000004d, 0 9px 20px #0000004a, 0 37px 37px #00000042, 0 84px 50px #00000026, 0 149px 60px #0000000a, 0 233px 65px #00000003",
       }}
-      className="max-w-5xl -mt-12 mx-auto h-[full] md:h-[40rem] w-full border-4 border-[#6C6C6C] md:p-2 bg-[#222222] rounded-[30px] shadow-2xl"
+      className="max-w-5xl mx-auto h-[full] md:h-[40rem] w-full border-4 border-[#6C6C6C] md:p-2 bg-[#222222] rounded-[30px] shadow-2xl"
+      // Removed -mt-12 to eliminate top margin
     >
-      <div className=" h-full w-full  overflow-hidden rounded-2xl bg-transparent dark:bg-zinc-900 md:rounded-2xl md:p-2 ">
+      <div className="h-full w-full overflow-hidden rounded-2xl bg-transparent dark:bg-zinc-900 md:rounded-2xl md:p-2">
         {children}
       </div>
     </motion.div>
