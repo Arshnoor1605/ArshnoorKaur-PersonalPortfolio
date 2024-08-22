@@ -89,7 +89,7 @@ const SkeletonOne = () => {
         <div className="h-5 w-5 rounded-full bg-gradient-to-r from-orange-400 to-pink-300 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
           <p className="sm:text-sm text-xs text-center font-semibold text-black font-sans antialiased">
-            Fullname:
+            Fullname:&nbsp;
           </p>
           <p className="sm:text-sm text-xs text-center font-semibold text-cyan-90 font-sans antialiased">
             Arshnoor Kaur
@@ -103,7 +103,7 @@ const SkeletonOne = () => {
         <div className="h-5 w-5 rounded-full bg-gradient-to-r from-lime-500 to-cyan-400 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
           <p className="text-slate-900 font-semibold text-xs md:text-sm font-sans antialiased">
-            Birthdate:
+            Birthdate:&nbsp;
           </p>
           <p className="text-cyan-900 font-semibold text-xs md:text-sm font-sans antialiased">
             May 16th, 2004
@@ -117,7 +117,7 @@ const SkeletonOne = () => {
         <div className="h-5 w-5 rounded-full bg-gradient-to-r from-purple-600 to-cyan-400 flex-shrink-0" />
         <div className="w-full h-4 rounded-full dark:bg-neutral-900 flex flex-row">
           <p className="text-slate-900 font-semibold text-xs md:text-sm font-sans antialiased">
-            Email:
+            Email:&nbsp;
           </p>
           <a
             href="mailto:kaura69@mcmaster.ca"
