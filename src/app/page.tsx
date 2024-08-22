@@ -20,6 +20,7 @@ export default function Home() {
       <StarsBackground />
       {/* <SpotlightPreview /> */}
       <BentoGridThirdDemo />
+
       <SpotlightPreviewExp />
 
       {/* <Timeline /> */}

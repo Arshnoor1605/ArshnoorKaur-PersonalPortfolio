@@ -17,14 +17,14 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
 }) => (
   <li className="mb-10 ms-4 relative">
     {/* The div below is for the circles that are on the timeline */}
-    <div className="absolute w-3 h-3 bg-slate-400 rounded-full mt-1.5 mr-1.5 -start-1.5 dark:border-gray-900 dark:bg-gray-700"></div>
-    <time className="mb-1 ml-3 text-xl font-extrabold leading-none text-white dark:text-gray-500">
+    <div className="absolute w-3 h-3 bg-teal-200 rounded-full mt-1.5 mr-1.5 -start-1.5 dark:border-gray-900 dark:bg-gray-700"></div>
+    <time className="text-base sm:text-sm mb-1 ml-3 font-extrabold leading-none text-white dark:text-gray-500 antialiased">
       {date}
     </time>
-    <h3 className="text-lg font-semibold text-white dark:text-white">
+    <h3 className="text-base sm:text-sm font-sans font-semibold text-white dark:text-white antialiased">
       {title}
     </h3>
-    <p className="mb-4 text-base font-normal text-white dark:text-gray-400">
+    <p className="text-sm sm:text-xs mb-4 font-sans text-white dark:text-gray-400 antialiased">
       {description}
     </p>
     {link && (
