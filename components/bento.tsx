@@ -32,7 +32,10 @@ import { Spotlight } from "./spotlight";
 export function BentoGridThirdDemo() {
   return (
     <div className="max-w-4xl mx-auto">
-      <h2 className="mb-8 sm:mb-4  text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-50 to-teal-200 bg-opacity-50">
+      <h2
+        id="About"
+        className="mb-8 sm:mb-4  text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-50 to-teal-200 bg-opacity-50"
+      >
         About Me
       </h2>
       <BentoGrid className="md:auto-rows-[20rem] ">

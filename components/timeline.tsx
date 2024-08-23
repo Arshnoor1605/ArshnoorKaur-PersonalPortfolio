@@ -121,7 +121,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
     <h3 className="text-base sm:text-sm ml-14 font-sans font-semibold text-neutral-300 dark:text-white antialiased">
       {title}
     </h3>
-    <p className="text-sm sm:text-xs mt-3 mb-4 font-sans text-white dark:text-gray-400 antialiased">
+    <p className="sm:text-sm text-xs mt-3 mb-4 font-sans text-white dark:text-gray-400 antialiased">
       {description}
     </p>
     {link && (
