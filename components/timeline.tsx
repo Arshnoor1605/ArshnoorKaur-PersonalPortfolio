@@ -115,7 +115,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
       )}{" "}
       {/* Add the image */}
     </div>
-    <time className="text-5xl sm:text-xl mb-1 ml-14 font-extrabold leading-none text-white dark:text-gray-500 antialiased">
+    <time className="text-3xl sm:text-lg mb-1 ml-14 font-extrabold leading-none text-white dark:text-gray-500 antialiased">
       {date}
     </time>
     <h3 className="text-base sm:text-sm ml-14 font-sans font-semibold text-neutral-300 dark:text-white antialiased">
