@@ -37,10 +37,10 @@ function Navbar({ className }: { className?: string }) {
               description="This project implements and compares various algorithms to evaluate their performance and efficiency in finding shortest paths under various constraints."
             />
             <ProductItem
-              title="Recursion Tree"
-              href="https://tailwindmasterkit.com"
-              src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-              description="Production ready Tailwind css components for your next project"
+              title="Elm Slider Craft "
+              href="https://github.com/Arshnoor1605/RecursionGraphic"
+              src="/Recursion.jpeg"
+              description="A recursive Elm-based slider application with dynamic changes based on state."
             />
             <ProductItem
               title="Math Visualizer"
