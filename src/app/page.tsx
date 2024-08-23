@@ -25,7 +25,7 @@ export default function Home() {
 
       {/* <Timeline /> */}
 
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }
