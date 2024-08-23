@@ -70,7 +70,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative text-base font-sans font-semibold backdrop-blur-sm bg-opacity-80 bg-emerald-900 rounded-full dark:bg-black dark:border-white/[0.2] shadow-input flex justify-center space-x-16  py-3 "
+      className="relative text-base font-sans font-semibold backdrop-blur-sm bg-emerald-900 rounded-full dark:bg-black dark:border-white/[0.2] shadow-input flex justify-center space-x-12 max-w-[60%] mx-auto  py-3 "
     >
       {children}
     </nav>
@@ -98,7 +98,7 @@ export const ProductItem = ({
         className="flex-shrink-0 rounded-md shadow-2xl"
       />
       <div>
-        <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
+        <h4 className="text-xl font-bold mb-1 text-white antialiased dark:text-white">
           {title}
         </h4>
         <p className="text-white text-sm max-w-[10rem] dark:text-neutral-300">
