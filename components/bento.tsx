@@ -194,10 +194,7 @@ const SkeletonTwo = () => {
   const arr = new Array(6).fill(0);
 
   return (
-    <div
-      id="Skills"
-      className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
-    >
+    <div className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2">
       {arr.map((_, i) => (
         <div
           key={"skeleton-two-" + i}
@@ -512,7 +509,7 @@ const items = [
   {
     title: "Skills",
     description: (
-      <span className="text-sm">
+      <span id="Skills" className="text-sm">
         I'm a cell-like independent teamworker, strong in coding and research.
         Below are highlights of my technical skills:
       </span>
