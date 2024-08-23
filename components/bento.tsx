@@ -253,6 +253,7 @@ const SkeletonTwo = () => {
 const SkeletonThree = () => {
   return (
     <a
+      id="Certifications"
       href="https://www.credly.com/badges/b64c1f02-8a70-4960-a35c-7aafafc5487c/public_url" // Replace with your desired URL
       target="_blank" // Opens the link in a new tab
       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2 relative"
@@ -315,6 +316,7 @@ const SkeletonFour = () => {
       </motion.div>
       <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
         <Image
+          id="Connectwithme"
           src="/Resume.png"
           alt="avatar"
           height="100"
@@ -451,6 +453,7 @@ const SkeletonFive = () => {
         className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2 items-start space-x-2 bg-white dark:bg-black"
       >
         <Image
+          id="EducationalBackground"
           src="/McMasterLogo.jpg" // Corrected URL
           alt="avatar"
           height={100} // Height should be a number
