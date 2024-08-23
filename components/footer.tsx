@@ -36,7 +36,7 @@ const Footer = () => {
   return (
     <footer className="relative bottom-0 rounded-lg shadow m-4 dark:bg-gray-800 md:p-2">
       <div className="w-full mx-auto max-w-screen-xl p-4  md:flex flex-col md:items-center bg-transparent md:justify-between">
-        <span className="text-xs sm:text-sm text-center text-gray-100 sm:text-center dark:text-gray-400 m-4">
+        <span className="text-xs sm:text-sm items-center font-medium text-center text-gray-100 sm:text-center dark:text-gray-400 m-4">
           © 2024 Arshnoor Kaur™
         </span>
         <ul className="flex flex-wrap  bg-teal-800 bg-opacity-95 p-3 rounded-xl backdrop-blur-sm items-center mt-3 text-sm sm:text-xs ml-4 font-medium text-gray-100 dark:text-gray-400 sm:mt-0">
