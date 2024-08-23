@@ -344,7 +344,7 @@ const SkeletonFour = () => {
         </p>
         <a
           href="https://github.com/Arshnoor1605"
-          className="border border-orange-500 bg-orange-500 dark:bg-orange-900/20 text-white text-xs rounded-full px-2 py-0.5 mt-4"
+          className="border border-orange-500 bg-orange-500 dark:bg-orange-900/20 text-white text-xs rounded-full px-2 py-0.5 mt-2"
         >
           Check them out
         </a>

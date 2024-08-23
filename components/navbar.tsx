@@ -15,7 +15,7 @@ function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-xl mx-auto z-50", className)}
+      className={cn("fixed top-20 inset-x-0 max-w-xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Profile">
@@ -28,7 +28,7 @@ function Navbar({ className }: { className?: string }) {
             </HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Experience">
+        <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="text-sm grid grid-cols-1 gap-10 p-4">
             <ProductItem
               title="Algorithm Analysis"
@@ -50,14 +50,12 @@ function Navbar({ className }: { className?: string }) {
             />
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Projects">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
-        </MenuItem>
+        <a
+          href="#Connectwithme"
+          className="cursor-pointer text-yellow-100 hover:opacity-[1] dark:text-white"
+        >
+          Contact Me
+        </a>
       </Menu>
     </div>
   );
