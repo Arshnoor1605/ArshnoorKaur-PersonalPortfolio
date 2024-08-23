@@ -32,9 +32,9 @@ function Navbar({ className }: { className?: string }) {
           <div className="text-sm grid grid-cols-1 gap-10 p-4">
             <ProductItem
               title="Algorithm Analysis"
-              href="https://algochurn.com"
-              src="https://assets.aceternity.com/demos/algochurn.webp"
-              description="Prepare for tech interviews like never before."
+              href="https://github.com/Arshnoor1605/Algorithm-Analysis/tree/main"
+              src="/Algorithm.jpeg"
+              description="This project implements and compares various algorithms to evaluate their performance and efficiency in finding shortest paths under various constraints."
             />
             <ProductItem
               title="Recursion Tree"
