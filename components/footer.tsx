@@ -35,15 +35,15 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="relative bottom-0 rounded-lg shadow m-4 dark:bg-gray-800 md:p-2">
-      <div className="w-full mx-auto max-w-screen-xl p-4  md:flex flex-col md:items-center bg-transparent md:justify-between">
-        <span className="text-xs sm:text-sm items-center font-medium text-center text-gray-100 sm:text-center dark:text-gray-400 m-4">
+      <div className="w-full mx-auto max-w-screen-xl p-4  md:flex flex-col sm:items-center sm:text-center md:items-center bg-transparent md:justify-between">
+        <span className="w-full flex justify-center text-xs sm:text-sm items-center font-medium sm:justify-center sm:items-center text-center text-gray-100 sm:text-center dark:text-gray-400 mb-2">
           © 2024 Arshnoor Kaur™
         </span>
         <ul className="flex flex-wrap  bg-teal-800 bg-opacity-95 p-3 rounded-xl backdrop-blur-sm items-center mt-3 text-sm sm:text-xs ml-4 font-medium text-gray-100 dark:text-gray-400 sm:mt-0">
           <li>
             <a
               href="#About"
-              className="text-xs sm:text-sm font-semibold antialiased text-purple-400 hover:underline me-4 md:me-6 hover:text-teal-200"
+              className="text-xs sm:text-sm font-semibold antialiased text-white hover:underline me-4 md:me-6 hover:text-teal-200"
             >
               About
             </a>
@@ -51,7 +51,7 @@ const Footer = () => {
           <li>
             <a
               href="#"
-              className="text-xs sm:text-sm font-semibold text-sky-500 antialiased hover:underline me-4 md:me-6 hover:text-teal-200"
+              className="text-xs sm:text-sm font-semibold text-white antialiased hover:underline me-4 md:me-6 hover:text-teal-200"
             >
               Linkedin
             </a>
@@ -59,7 +59,7 @@ const Footer = () => {
           <li>
             <a
               href="#"
-              className="text-xs text-yellow-400 font-semibold antialiased sm:text-sm hover:underline me-4 md:me-6 hover:text-teal-200"
+              className="text-xs text-white font-semibold antialiased sm:text-sm hover:underline me-4 md:me-6 hover:text-teal-200"
             >
               GitHub
             </a>
@@ -67,7 +67,7 @@ const Footer = () => {
           <li>
             <a
               href="mailto:kaura69@mcmaster.ca"
-              className="text-xs text-lime-400 font-semibold antialiased sm:text-sm hover:underline hover:text-teal-200"
+              className="text-xs text-white font-semibold antialiased sm:text-sm hover:underline hover:text-teal-200"
             >
               Contact
             </a>

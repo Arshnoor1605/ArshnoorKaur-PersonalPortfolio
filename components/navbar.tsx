@@ -52,7 +52,7 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <a
           href="#Connectwithme"
-          className="cursor-pointer text-yellow-100 hover:opacity-[1] dark:text-white"
+          className="cursor-pointer antialiased text-teal-300 hover:opacity-[1] dark:text-white"
         >
           Contact Me
         </a>
