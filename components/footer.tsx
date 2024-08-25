@@ -59,7 +59,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://github.com/Arshnoor1605"
+              href="#"
               className="text-xs text-white font-semibold antialiased sm:text-sm hover:underline me-4 md:me-6 hover:text-teal-200"
             >
               GitHub
