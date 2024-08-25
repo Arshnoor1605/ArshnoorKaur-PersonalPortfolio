@@ -50,7 +50,8 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/arshnoor-kaur1605
+              "
               className="text-xs sm:text-sm font-semibold text-white antialiased hover:underline me-4 md:me-6 hover:text-teal-200"
             >
               Linkedin
@@ -58,7 +59,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="https://github.com/Arshnoor1605"
               className="text-xs text-white font-semibold antialiased sm:text-sm hover:underline me-4 md:me-6 hover:text-teal-200"
             >
               GitHub
