@@ -184,26 +184,26 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
 const Timeline: React.FC = () => (
   <ol className="relative border-s border-stone-300 dark:border-gray-700">
     <TimelineItem
-      date="Outreach Instructor (Co-op) - Fondation STaBL Foundation"
-      title="May 2024 - August 2024"
+      date="May 2024 - August 2024"
+      title="Outreach Instructor (Co-op) - Fondation STaBL Foundation"
       description="As an Outreach Instructor, I played a pivotal role in educating over 5000+ K-12 students across Canada and internationally. I led the development and delivery of engaging educational programs, focusing on functional programming in Elm. I was also instrumental in conducting code reviews and actively participating in Agile scrum methodologies, including sprint planning, daily stand-ups, and sprint retrospectives, ensuring the delivery of high-quality educational content."
       image="/STaBLlogo.png"
     />
     <TimelineItem
-      date="Educational Software Development Intern (Co-op) - Fondation STaBL Foundation"
-      title="May 2024 - August 2024"
+      date="May 2024 - August 2024"
+      title="Educational Software Development Intern (Co-op) - Fondation STaBL Foundation"
       description="In my role as an Educational Software Development Intern, I collaborated with team members to enhance existing software systems by 40% in efficiency. This included troubleshooting technical issues and gaining hands-on experience with functional programming. I contributed significantly to the improvement of software quality through comprehensive code reviews and Agile practices."
       image="/STaBLlogo.png"
     />
     <TimelineItem
-      date="Software Developer - Fondation STaBL Foundation"
-      title="January 2024 - May 2024"
+      date="January 2024 - May 2024"
+      title="Software Developer - Fondation STaBL Foundation"
       description="During my time as a Software Developer, I specialized in refining version control processes within existing software systems using the Elm Framework. My work focused on enhancing the efficiency and reliability of the software, where I also developed and tested prototypes to ensure the successful implementation of these improvements."
       image="/STaBLlogo.png"
     />
     <TimelineItem
-      date="Vice President External - McMaster Start Coding"
-      title="January 2024 - Present"
+      date="January 2024 - Present"
+      title="Vice President External - McMaster Start Coding"
       description="In my role as Vice President External, I have been responsible for fostering relationships with external partners, coordinating outreach initiatives, and representing the organization at various events. My efforts have been crucial in expanding the club’s visibility and impact within the community."
       image="/MSClogo.png"
     />
