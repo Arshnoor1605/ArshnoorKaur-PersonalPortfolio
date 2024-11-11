@@ -192,7 +192,10 @@ const Timeline: React.FC = () => (
     <TimelineItem
       date="May 2024 - August 2024"
       title="Educational Software Development Intern (Co-op) - Fondation STaBL Foundation"
-      description="In my role as an Educational Software Development Intern, I collaborated with team members to enhance existing software systems by 40% in efficiency. This included troubleshooting technical issues and gaining hands-on experience with functional programming. I contributed significantly to the improvement of software quality through comprehensive code reviews and Agile practices."
+      description="Led cross-functional collaboration with developers, educators, and management teams to design and implement high-quality software, contributing to improving product efficiency by 40%.
+Spearheaded Agile sprint planning, stand-ups, and retrospectives, ensuring timely delivery of product features and enhancements.
+Managed stakeholder communication to align software development with educational objectives, prioritizing features based on user feedback and product roadmap.
+Successfully educated over 5000 students globally, demonstrating excellent communication, planning, and leadership skills through workshops and programs."
       image="/STaBLlogo.png"
     />
     <TimelineItem
@@ -204,7 +207,11 @@ const Timeline: React.FC = () => (
     <TimelineItem
       date="January 2024 - Present"
       title="Vice President External - McMaster Start Coding"
-      description="In my role as Vice President External, I have been responsible for fostering relationships with external partners, coordinating outreach initiatives, and representing the organization at various events. My efforts have been crucial in expanding the club’s visibility and impact within the community."
+      description="Led outreach efforts to establish and maintain partnerships with external organizations, including local schools, tech companies, and community groups, to expand the reach of McMaster Start Coding's educational programs.
+Coordinated with external stakeholders to organize workshops, hackathons, and events, facilitating opportunities for students to learn and engage with industry professionals.
+Represented the club in external meetings, acting as the primary liaison between McMaster Start Coding and external partners, ensuring alignment of goals and promoting the club’s initiatives.
+Managed communication channels for external partnerships, ensuring timely follow-ups, maintaining strong relationships, and seeking out sponsorship opportunities to support club activities.
+Collaborated with the executive team to strategically plan events, manage resources, and promote McMaster Start Coding's mission to enhance computer science education for youth in the community."
       image="/MSClogo.png"
     />
   </ol>
