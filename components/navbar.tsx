@@ -56,6 +56,12 @@ function Navbar({ className }: { className?: string }) {
         >
           Contact Me
         </a>
+        <a
+          href="#"
+          className="cursor-pointer antialiased text-teal-300 hover:opacity-[1] dark:text-white"
+        >
+          Skills and coursework
+        </a>
       </Menu>
     </div>
   );
