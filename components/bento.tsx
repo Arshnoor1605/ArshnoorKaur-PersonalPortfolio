@@ -301,7 +301,7 @@ const SkeletonFour = () => {
           alt="avatar"
           height="90"
           width="90"
-          className="rounded-xl h-10 w-10"
+          className="rounded-xl h-15 w-15"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
           LinkedIn
@@ -319,7 +319,7 @@ const SkeletonFour = () => {
           alt="avatar"
           height="100"
           width="100"
-          className="rounded-full h-10 w-10"
+          className="rounded-full h-15 w-15"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
           Here is my resume
@@ -340,7 +340,7 @@ const SkeletonFour = () => {
           alt="avatar"
           height="100"
           width="100"
-          className="rounded-full h-10 w-10"
+          className="rounded-full h-15 w-15"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
           Find my projects on GitHub
