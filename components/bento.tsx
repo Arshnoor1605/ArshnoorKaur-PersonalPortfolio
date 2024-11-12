@@ -197,7 +197,7 @@ const SkeletonTwo = () => {
   const arr = new Array(6).fill(0);
 
   return (
-    <div className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2">
+    <div className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-3">
       {arr.map((_, i) => (
         <div
           key={"skeleton-two-" + i}
