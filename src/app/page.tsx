@@ -10,6 +10,7 @@ import Footer from "../../components/footer";
 import { SpotlightPreviewExp } from "../../components/spotlightNamecopy";
 import { BentoGridThirdDemo } from "../../components/bento";
 import { NavbarDemo } from "../../components/navbar";
+import { CardHoverEffectDemo } from "../../components/card-hover";
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
       <SpotlightPreviewExp />
 
       {/* <Timeline /> */}
+
+      <CardHoverEffectDemo />
 
       <Footer />
     </main>
