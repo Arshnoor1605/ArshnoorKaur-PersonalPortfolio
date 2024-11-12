@@ -308,7 +308,7 @@ const SkeletonFour = () => {
         </p>
         <a
           href="https://www.linkedin.com/in/arshnoor-kaur1605"
-          className="border border-blue-800 bg-blue-800 dark:bg-red-900/20 text-white text-xs rounded-full px-2 py-0.5 mt-4"
+          className="border border-blue-800 bg-blue-800 dark:bg-red-900/20 text-white text-xs rounded-full px-2 py-2.5 mt-4"
         >
           Myprofile
         </a>
@@ -322,11 +322,11 @@ const SkeletonFour = () => {
           className="rounded-full h-15 w-15"
         />
         <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
-          Here is my resume
+          My resume can be accessed by clicking the button below
         </p>
         <a
           href="https://drive.google.com/file/d/1QLzJcLgDvDQ8Ufr_8PHQmQLudGPqLAQ2/view?usp=share_link"
-          className="border border-green-500 bg-green-500 dark:bg-green-900/20 text-white text-xs items-center justify-center rounded-full px-2 py-0.5 mt-4"
+          className="border border-green-500 bg-green-500 dark:bg-green-900/20 text-white text-xs items-center justify-center rounded-full px-2 py-2.5 mt-4"
         >
           Resume
         </a>
@@ -347,7 +347,7 @@ const SkeletonFour = () => {
         </p>
         <a
           href="https://github.com/Arshnoor1605"
-          className="border border-orange-500 bg-orange-500 dark:bg-orange-900/20 text-white text-xs rounded-full px-2 py-0.5 mt-2"
+          className="border border-orange-500 bg-orange-500 dark:bg-orange-900/20 text-white text-xs rounded-full px-2 py-2.5 mt-2"
         >
           Check them out
         </a>
