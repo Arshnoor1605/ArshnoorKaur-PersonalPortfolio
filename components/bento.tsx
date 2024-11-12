@@ -38,7 +38,7 @@ export function BentoGridThirdDemo() {
       >
         About Me
       </h2>
-      <BentoGrid className="md:auto-rows-[20rem] ">
+      <BentoGrid className="md:auto-rows-[28rem] ">
         {items.map((item, i) => (
           <BentoGridItem
             key={i}
