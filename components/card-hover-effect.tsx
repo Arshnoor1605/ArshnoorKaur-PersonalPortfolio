@@ -74,7 +74,7 @@ export const Card = ({
       )}
     >
       <div className="relative z-50">
-        <div className="p-4">{children}</div>
+        <div className="p-1">{children}</div>
       </div>
     </div>
   );
@@ -89,7 +89,7 @@ export const CardTitle = ({
   return (
     <h4
       className={cn(
-        "text-teal-900 text-center font-bold tracking-wide mt-4 dark:text-teal-200",
+        "text-teal-900 text-center font-bold tracking-wide mt-3 dark:text-teal-200",
         className
       )}
     >
