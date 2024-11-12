@@ -32,6 +32,7 @@ export const HoverEffect = ({
           onMouseLeave={() => setHoveredIndex(null)}
         >
           <AnimatePresence>
+            {/* This block is for the animation box that appears behind the grid boxes */}
             {hoveredIndex === idx && (
               <motion.span
                 className="absolute inset-0 h-full w-full bg-teal-300 dark:bg-slate-800/[0.8] block  rounded-3xl"
@@ -88,7 +89,7 @@ export const CardTitle = ({
   return (
     <h4
       className={cn(
-        "text-teal-900 font-bold tracking-wide mt-4 dark:text-teal-200",
+        "text-teal-900 text-center font-bold tracking-wide mt-3 dark:text-teal-200",
         className
       )}
     >

@@ -3,6 +3,12 @@ import { HoverEffect } from "./card-hover-effect";
 export function CardHoverEffectDemo() {
   return (
     <div className="max-w-5xl mx-auto px-8">
+      <h2
+        id="Relevant Course Work"
+        className="mb-8 sm:mb-4  text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-50 to-teal-200 bg-opacity-50"
+      >
+        Skills and coursework
+      </h2>
       <HoverEffect items={projects} />
     </div>
   );
