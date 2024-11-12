@@ -467,6 +467,12 @@ const SkeletonFive = () => {
           <p className="text-xs text-slate-500 antialiased">
             Expected graduation (2027)
           </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            eveniet voluptatum, repudiandae corporis autem, recusandae
+            architecto assumenda reiciendis hic at nam alias totam, iste laborum
+            earum molestiae et suscipit quidem.
+          </p>
         </div>
       </motion.div>
       <motion.div
