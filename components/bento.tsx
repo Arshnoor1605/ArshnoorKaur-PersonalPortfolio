@@ -204,7 +204,7 @@ const SkeletonTwo = () => {
           style={{
             width: widths[i % widths.length], // Apply custom width
           }}
-          className="flex items-center rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 bg-white dark:bg-black h-4 relative"
+          className="flex items-center rounded-full border border-neutral-100 dark:border-white/[0.2] p-2 bg-yellow-100 dark:bg-black h-4 relative"
         >
           <span
             className={`absolute inset-0 flex items-center justify-left p-2 antialiased font-sans font-bold text-sm sm:text-xs ${
