@@ -468,10 +468,16 @@ const SkeletonFive = () => {
             Expected graduation (2027)
           </p>
           <p className="text-xs text-sky-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            eveniet voluptatum, repudiandae corporis autem, recusandae
-            architecto assumenda reiciendis hic at nam alias totam, iste laborum
-            earum molestiae et suscipit quidem.
+            At McMaster University, where I’m pursuing my Honors Bachelor of
+            Applied Science in Computer Science, I actively participate in
+            various extracurricular activities that enhance my learning
+            experience. In January 2024, I took part in DeltaHacks, a hackathon
+            focused on solving real-world problems with technology. I am also
+            involved in Women in Engineering (WIE), promoting diversity in STEM,
+            and the Google Developer Students Club, where I collaborate on tech
+            projects and attend workshops. These experiences have helped me
+            develop strong skills in teamwork, leadership, and technical
+            development.
           </p>
         </div>
       </motion.div>
