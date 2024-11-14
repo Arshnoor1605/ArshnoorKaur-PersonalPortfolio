@@ -28,7 +28,7 @@ export default function Home() {
       {/* <Timeline /> */}
 
       <CardHoverEffectDemo />
-      <AnimatedTestimonialsDemo />
+      {/* <AnimatedTestimonialsDemo /> */}
 
       <Footer />
     </main>
