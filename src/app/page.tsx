@@ -5,7 +5,7 @@ import { ShootingStars } from "../../components/shooting-stars";
 import { ShootingStarsAndStarsBackgroundDemo } from "../../components/shooting_stars";
 import { StarsBackground } from "../../components/stars-background";
 import { SpotlightPreview } from "../../components/spotlightName";
-import { TimelineDemo } from "../../components/Timelinebeam";
+import Timeline from "../../components/timeline";
 import Footer from "../../components/footer";
 import { SpotlightPreviewExp } from "../../components/spotlightNamecopy";
 import { BentoGridThirdDemo } from "../../components/bento";

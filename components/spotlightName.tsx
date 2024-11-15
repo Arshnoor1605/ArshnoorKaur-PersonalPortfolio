@@ -33,7 +33,7 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import { Spotlight } from "./spotlight";
 import { TextGenerateEffect } from "./text-generate-effect";
-import { TimelineDemo } from "./Timelinebeam";
+import Timeline from "./timeline";
 
 export function SpotlightPreview() {
   return (
