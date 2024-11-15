@@ -1,3 +1,5 @@
+("use client");
+
 // import React from "react";
 
 // interface TimelineItemProps {
@@ -219,7 +221,6 @@
 
 // export default Timeline;
 
-("use client");
 import {
   useMotionValueEvent,
   useScroll,
