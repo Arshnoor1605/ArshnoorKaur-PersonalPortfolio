@@ -33,7 +33,7 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import { Spotlight } from "./spotlight";
 import { TextGenerateEffect } from "./text-generate-effect";
-import Timeline from "./timeline";
+import { TimelineDemo } from "./Timelinebeam";
 
 export function SpotlightPreviewExp() {
   return (
@@ -45,7 +45,7 @@ export function SpotlightPreviewExp() {
         <h1 className="mb-10 text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-50 to-teal-200 bg-opacity-50 underline">
           Experience
         </h1>
-        <Timeline />
+        <TimelineDemo />
       </div>
     </div>
   );
