@@ -181,40 +181,40 @@ const TimelineItem: React.FC<TimelineItemProps> = ({
 //   </ol>
 // );
 
-const Timeline: React.FC = () => (
-  <ol className="relative border-s border-stone-300 dark:border-gray-700">
-    <TimelineItem
-      date="May 2024 - August 2024"
-      title="Outreach Instructor (Co-op) - Fondation STaBL Foundation"
-      description="As an Outreach Instructor, I played a pivotal role in educating over 5000+ K-12 students across Canada and internationally. I led the development and delivery of engaging educational programs, focusing on functional programming in Elm. I was also instrumental in conducting code reviews and actively participating in Agile scrum methodologies, including sprint planning, daily stand-ups, and sprint retrospectives, ensuring the delivery of high-quality educational content."
-      image="/STaBLlogo.png"
-    />
-    <TimelineItem
-      date="May 2024 - August 2024"
-      title="Educational Software Development Intern (Co-op) - Fondation STaBL Foundation"
-      description="Led cross-functional collaboration with developers, educators, and management teams to design and implement high-quality software, contributing to improving product efficiency by 40%.
-Spearheaded Agile sprint planning, stand-ups, and retrospectives, ensuring timely delivery of product features and enhancements.
-Managed stakeholder communication to align software development with educational objectives, prioritizing features based on user feedback and product roadmap.
-Successfully educated over 5000 students globally, demonstrating excellent communication, planning, and leadership skills through workshops and programs."
-      image="/STaBLlogo.png"
-    />
-    <TimelineItem
-      date="January 2024 - May 2024"
-      title="Software Developer - Fondation STaBL Foundation"
-      description="During my time as a Software Developer, I specialized in refining version control processes within existing software systems using the Elm Framework. My work focused on enhancing the efficiency and reliability of the software, where I also developed and tested prototypes to ensure the successful implementation of these improvements."
-      image="/STaBLlogo.png"
-    />
-    <TimelineItem
-      date="January 2024 - Present"
-      title="Vice President External - McMaster Start Coding"
-      description="Led outreach efforts to establish and maintain partnerships with external organizations, including local schools, tech companies, and community groups, to expand the reach of McMaster Start Coding's educational programs.
-Coordinated with external stakeholders to organize workshops, hackathons, and events, facilitating opportunities for students to learn and engage with industry professionals.
-Represented the club in external meetings, acting as the primary liaison between McMaster Start Coding and external partners, ensuring alignment of goals and promoting the club’s initiatives.
-Managed communication channels for external partnerships, ensuring timely follow-ups, maintaining strong relationships, and seeking out sponsorship opportunities to support club activities.
-Collaborated with the executive team to strategically plan events, manage resources, and promote McMaster Start Coding's mission to enhance computer science education for youth in the community."
-      image="/MSClogo.png"
-    />
-  </ol>
-);
+// const Timeline: React.FC = () => (
+//   <ol className="relative border-s border-stone-300 dark:border-gray-700">
+//     <TimelineItem
+//       date="May 2024 - August 2024"
+//       title="Outreach Instructor (Co-op) - Fondation STaBL Foundation"
+//       description="As an Outreach Instructor, I played a pivotal role in educating over 5000+ K-12 students across Canada and internationally. I led the development and delivery of engaging educational programs, focusing on functional programming in Elm. I was also instrumental in conducting code reviews and actively participating in Agile scrum methodologies, including sprint planning, daily stand-ups, and sprint retrospectives, ensuring the delivery of high-quality educational content."
+//       image="/STaBLlogo.png"
+//     />
+//     <TimelineItem
+//       date="May 2024 - August 2024"
+//       title="Educational Software Development Intern (Co-op) - Fondation STaBL Foundation"
+//       description="Led cross-functional collaboration with developers, educators, and management teams to design and implement high-quality software, contributing to improving product efficiency by 40%.
+// Spearheaded Agile sprint planning, stand-ups, and retrospectives, ensuring timely delivery of product features and enhancements.
+// Managed stakeholder communication to align software development with educational objectives, prioritizing features based on user feedback and product roadmap.
+// Successfully educated over 5000 students globally, demonstrating excellent communication, planning, and leadership skills through workshops and programs."
+//       image="/STaBLlogo.png"
+//     />
+//     <TimelineItem
+//       date="January 2024 - May 2024"
+//       title="Software Developer - Fondation STaBL Foundation"
+//       description="During my time as a Software Developer, I specialized in refining version control processes within existing software systems using the Elm Framework. My work focused on enhancing the efficiency and reliability of the software, where I also developed and tested prototypes to ensure the successful implementation of these improvements."
+//       image="/STaBLlogo.png"
+//     />
+//     <TimelineItem
+//       date="January 2024 - Present"
+//       title="Vice President External - McMaster Start Coding"
+//       description="Led outreach efforts to establish and maintain partnerships with external organizations, including local schools, tech companies, and community groups, to expand the reach of McMaster Start Coding's educational programs.
+// Coordinated with external stakeholders to organize workshops, hackathons, and events, facilitating opportunities for students to learn and engage with industry professionals.
+// Represented the club in external meetings, acting as the primary liaison between McMaster Start Coding and external partners, ensuring alignment of goals and promoting the club’s initiatives.
+// Managed communication channels for external partnerships, ensuring timely follow-ups, maintaining strong relationships, and seeking out sponsorship opportunities to support club activities.
+// Collaborated with the executive team to strategically plan events, manage resources, and promote McMaster Start Coding's mission to enhance computer science education for youth in the community."
+//       image="/MSClogo.png"
+//     />
+//   </ol>
+// );
 
-export default Timeline;
+// export default Timeline;
