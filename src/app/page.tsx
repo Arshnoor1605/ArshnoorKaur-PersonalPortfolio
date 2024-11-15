@@ -12,6 +12,7 @@ import { BentoGridThirdDemo } from "../../components/bento";
 import { NavbarDemo } from "../../components/navbar";
 import { CardHoverEffectDemo } from "../../components/card-hover";
 import { AnimatedTestimonialsDemo } from "../../components/project-testimonals";
+import { TimelineDemo } from "../../components/timelinedemo";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       <BentoGridThirdDemo />
 
       <SpotlightPreviewExp />
-
+      <TimelineDemo />
       {/* <Timeline /> */}
 
       <CardHoverEffectDemo />
