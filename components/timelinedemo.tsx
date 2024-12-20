@@ -11,13 +11,13 @@ export function TimelineDemo() {
           <p className="text-teal-200 dark:text-neutral-200 text-lg md:text-3xl font-bold mb-8">
             CareFinder: Mapping Canadian Healthcare Facilities
           </p>
-          <p className="text-white dark:text-emerald-50 text-sm md:text-base mb-4">
+          <p className="text-white dark:text-emerald-50 text-xs md:text-sm mb-4">
             CareFinder is a web-based application designed to help users locate
             healthcare facilities in their area and across Canada. The platform
             includes a variety of facilities, such as hospitals, nursing homes,
             and ambulatory health care services.
           </p>
-          <ul className="text-cyan-100 font-normal text-xs md:text-sm mb-3">
+          <ul className="text-slate-200 font-normal text-xs md:text-sm mb-3">
             <li>
               {" "}
               Interactive 2D Map with a Search Bar: The user can type any
@@ -136,8 +136,8 @@ export function TimelineDemo() {
       title: "2023 and before",
       content: (
         <div>
-          <p className="text-neutral-100 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Projects using functional programming language - Elm
+          <p className="text-teal-200 dark:text-neutral-200 text-lg md:text-3xl font-bold mb-8">
+            Mini-projects using functional programming and SQL + python
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-neutral-100 dark:text-neutral-300 text-xs md:text-sm">
