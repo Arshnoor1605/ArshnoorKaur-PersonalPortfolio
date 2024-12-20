@@ -180,7 +180,7 @@ export function HeroScrollDemo() {
       <ContainerScroll
         titleComponent={
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
             className="relative text-4xl text-sans font-semibold text-white dark:text-white z-10 mb-[2rem]" // Added negative margin-bottom
