@@ -8,7 +8,7 @@ export function TimelineDemo() {
       title: "2024",
       content: (
         <div>
-          <p className="text-teal-200 dark:text-neutral-200 text-base md:text-lg font-bold mb-8">
+          <p className="text-teal-200 dark:text-neutral-200 text-lg md:text-2xl font-bold mb-8">
             CareFinder: Mapping Canadian Healthcare Facilities
           </p>
           <p className="text-white dark:text-emerald-50 text-sm md:text-base mb-4">
@@ -17,7 +17,7 @@ export function TimelineDemo() {
             includes a variety of facilities, such as hospitals, nursing homes,
             and ambulatory health care services.
           </p>
-          <ul className="text-cyan-100 font-normal text-sm md:text-base mb-3">
+          <ul className="text-cyan-100 font-normal text-xs md:text-sm mb-3">
             <li>
               {" "}
               Interactive 2D Map with a Search Bar: The user can type any
