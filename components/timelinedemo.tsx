@@ -8,9 +8,47 @@ export function TimelineDemo() {
       title: "2024",
       content: (
         <div>
-          <p className="text-neutral-100 dark:text-neutral-200 text-base md:text-sm font-normal mb-8">
+          <p className="text-teal-200 dark:text-neutral-200 text-base md:text-lg font-bold mb-8">
             CareFinder: Mapping Canadian Healthcare Facilities
           </p>
+          <p className="text-white dark:text-emerald-50 text-sm md:text-base mb-4">
+            CareFinder is a web-based application designed to help users locate
+            healthcare facilities in their area and across Canada. The platform
+            includes a variety of facilities, such as hospitals, nursing homes,
+            and ambulatory health care services.
+          </p>
+          <ul className="text-cyan-100 font-normal text-sm md:text-base mb-3">
+            <li>
+              {" "}
+              Interactive 2D Map with a Search Bar: The user can type any
+              location into the search bar and check if there are medical
+              facilities nearby. All medical facilities will be plotted on the
+              map using different icons.
+            </li>
+            <li>
+              Pan and Zoom: Users have the ability to zoom in and out of the map
+              and pan across it. If a user applies a filter and wants to search
+              a larger region, they can use the pan feature to view different
+              locations or zoom in to search more deeply in a specific area.
+            </li>
+            <li>
+              Filtering Options: To see everything, simply click 'Apply.' Users
+              also have the ability to easily filter facilities across Canada by
+              location, type of facility, and services offered. The results will
+              be detailed, showing the number of facilities. The results can
+              also be customized by the user.
+            </li>
+            <li>
+              Detailed Facility Information: Each healthcare facility entry
+              includes specialization areas, available services, address, and
+              contact information.
+            </li>
+            <li>
+              Dark Mode: Shows the high-level distribution of filtered
+              healthcare facilities across Canada and gives the user a general
+              view of how the facilities are distributed.
+            </li>
+          </ul>
           <div className="grid grid-cols-2 gap-4">
             <Image
               src="/Carefinder1.jpeg"
