@@ -17,37 +17,37 @@ export const projects = [
   {
     title: "Operating Systems",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "Focused on critical operating system concepts such as process and thread management, synchronization and communication techniques, scheduling algorithms, memory management strategies, file system design, resource protection, and system security.",
     link: "#",
   },
   {
     title: "Data Structures and Algorithms",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "Covered fundamental data structures such as stacks, queues, hash tables, binary trees, and graphs. Explored key algorithms for searching, sorting, and graph traversal, including minimum spanning trees, shortest path algorithms, and tree operations. Gained hands-on experience with algorithmic design strategies, performance analysis, and correctness proofs. Focused on evaluating the time complexity of algorithms (best, average, and worst-case) and understanding the trade-offs between time and space complexity. Developed the ability to select and justify appropriate data structures and algorithms to solve various computational problems effectively.",
     link: "#",
   },
   {
     title: "Computer Architecture",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+      "Developed a comprehensive understanding of foundational concepts, including digital logic computation, number representations (integer and floating-point), instruction set architecture (ISA), and the interaction between processors, memory, and I/O. Gained hands-on experience programming in ARM assembly and integrating assembly with C for practical tasks. Explored advanced topics such as CPU pipelining, parallelism, virtual memory, caching, and I/O systems. Acquired skills in evaluating and reasoning about ISA design and performance, memory hierarchies, and architecture choices while mastering the ability to analyze and convert between various number representation standards.",
     link: "#",
   },
   {
     title: "Human Computer Interfaces",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+      "Focused on the design and evaluation of user interfaces, emphasizing principles of effective and intuitive interface design. Explored task-oriented and user experience design methodologies to create functional and user-centered solutions. Addressed inclusive design principles to ensure accessibility for diverse user groups. Studied human cognition, including memory, perception, and motor systems, to align interfaces with human capabilities. Examined graphical communication techniques and addressed challenges like mode awareness. Gained hands-on experience with interface design tools and strategies for developing help systems to enhance user support and engagement.",
     link: "#",
   },
   {
     title: "Software Development",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      "Explored software process models and activities essential to software development, including requirement engineering for discovering and documenting requirements. Studied software design principles and graphical modeling techniques using Unified Modeling Language (UML). Gained expertise in interface specification, mathematical notations, and programming paradigms such as object-oriented and functional programming. Applied design patterns, conducted software verification and validation, and understood test-driven development methodologies. Examined the software evolution process, maintenance practices, and the role of software engineers in modern development workflows. Acquired hands-on experience in Java programming and designing robust, scalable systems.",
     link: "#",
   },
   {
     title: "Statistics and Probability",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+      "Studied fundamental concepts of probability and statistics, including combinatorics, independence, and conditional probability. Explored discrete and continuous distributions, statistical applications, and the Poisson process. Developed an understanding of expectation, transformations, moment-generating functions, and their applications. Analyzed joint, marginal, and conditional distributions, as well as covariance and correlation. Examined the central limit theorem and its significance in statistical inference and data analysis.",
     link: "#",
   },
 ];
