@@ -9,6 +9,13 @@ export function ShootingStarsAndStarsBackgroundDemo() {
       <HeroScrollDemo />
       <ShootingStars />
       <StarsBackground />
+      <img
+        src="/headshot.jpeg"
+        alt="my headshot"
+        width={270}
+        height={220}
+        className="object-cover border-emerald-100 border-2 md:w-48 md:h-48"
+      />
     </div>
   );
 }
