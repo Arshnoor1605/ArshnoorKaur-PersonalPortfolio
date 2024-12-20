@@ -26,7 +26,7 @@ export default function Home() {
         alt="my headshot"
         width={400}
         height={400}
-        className="object-cover rounded-lg border-black border-2 md:w-200 md:h-200 max-w-full mb-5 mt-[-4]"
+        className="object-cover rounded-lg border-black border-2 md:w-200 md:h-200 max-w-full mb-9 mt-[-9]"
       />
       <StarsBackground />
       {/* <SpotlightPreview /> */}
