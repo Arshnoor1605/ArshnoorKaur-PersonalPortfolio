@@ -175,7 +175,7 @@ import { LayoutGridDemo } from "./pic_layout";
 
 export function HeroScrollDemo() {
   return (
-    <div className="relative flex flex-col overflow-hidden w-full ">
+    <div className="relative flex flex-col overflow-hidden max-w-full ">
       <ParallaxImage />
       <ContainerScroll
         titleComponent={
