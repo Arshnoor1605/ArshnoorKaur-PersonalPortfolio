@@ -19,7 +19,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-20",
         className
       )}
     >
@@ -35,7 +35,7 @@ export const HoverEffect = ({
             {/* This block is for the animation box that appears behind the grid boxes */}
             {hoveredIndex === idx && (
               <motion.span
-                className="absolute inset-0 h-full w-full bg-teal-300 dark:bg-slate-800/[0.8] block  rounded-3xl"
+                className="absolute inset-0 h-full w-full bg-sky-200 dark:bg-slate-800/[0.8] block  rounded-3xl"
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{
