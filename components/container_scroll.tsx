@@ -201,6 +201,13 @@ export function HeroScrollDemo() {
         />
         {/* <LayoutGridDemo /> */}
       </ContainerScroll>
+      <Image
+        src="/headshot.jpeg"
+        alt="my headshot"
+        height={420}
+        width={420}
+        className="rounded-full object-cover h-auto w-full" // Ensure full width and auto height
+      />
     </div>
   );
 }
