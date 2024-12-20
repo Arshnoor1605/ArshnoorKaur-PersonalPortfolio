@@ -32,8 +32,8 @@ function Navbar({ className }: { className?: string }) {
           <div className="text-sm grid grid-cols-1 gap-10 p-4">
             <ProductItem
               title="CareFinder"
-              href="/Carefinder.jpeg"
-              src="#"
+              href="#"
+              src="/Carefinder.jpeg"
               description="CareFinder is a web-based application designed to help users locate healthcare facilities in their area and across Canada. The platform includes a variety of facilities, such as hospitals, nursing homes, and ambulatory health care services."
             />
             <ProductItem
@@ -43,7 +43,7 @@ function Navbar({ className }: { className?: string }) {
               description="This project implements and compares various algorithms to evaluate their performance and efficiency in finding shortest paths under various constraints."
             />
             <ProductItem
-              title="Elm Slider Craft "
+              title="Elm Slider Craft"
               href="https://github.com/Arshnoor1605/RecursionGraphic"
               src="/Recursion.jpeg"
               description="A recursive Elm-based slider application with dynamic changes based on state."
