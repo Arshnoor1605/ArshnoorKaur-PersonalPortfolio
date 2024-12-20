@@ -17,7 +17,15 @@ export const projects = [
   {
     title: "Operating Systems",
     description:
-      "O Explored processes and threads, including their management and lifecycle. \n O Studied synchronization techniques and inter-process communication. \n O Learned about scheduling algorithms and memory management strategies. \n O Covered file system structures, resource protection, and security mechanisms. \n O Analyzed the architecture and design of operating systems.",
+      "Explored processes and threads, including their management and lifecycle." +
+      "\n" +
+      "O Studied synchronization techniques and inter-process communication." +
+      "\n" +
+      "O Learned about scheduling algorithms and memory management strategies." +
+      "\n" +
+      "O Covered file system structures, resource protection, and security mechanisms." +
+      "\n" +
+      "O Analyzed the architecture and design of operating systems.",
     link: "#",
   },
   {
