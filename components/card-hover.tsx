@@ -5,7 +5,7 @@ export function CardHoverEffectDemo() {
     <div className="max-w-5xl mx-auto px-8">
       <h2
         id="Relevant Course Work"
-        className="mb-2 sm:mb-2  text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-50 to-teal-200 bg-opacity-50"
+        className="mb-2 sm:mb-0  text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-slate-50 to-teal-200 bg-opacity-50"
       >
         Skills and coursework
       </h2>
