@@ -24,9 +24,9 @@ export default function Home() {
       <Image
         src="/headshot.jpeg"
         alt="my headshot"
-        width={270}
-        height={220}
-        className="object-cover border-emerald-100 border-2 md:w-48 md:h-48 max-w-full"
+        width={400}
+        height={400}
+        className="object-cover rounded-lg border-black border-2 md:w-200 md:h-200 max-w-full"
       />
       <StarsBackground />
       {/* <SpotlightPreview /> */}
