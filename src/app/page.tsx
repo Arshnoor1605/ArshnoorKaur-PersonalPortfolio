@@ -13,6 +13,7 @@ import { NavbarDemo } from "../../components/navbar";
 import { CardHoverEffectDemo } from "../../components/card-hover";
 import { AnimatedTestimonialsDemo } from "../../components/project-testimonals";
 import { TimelineDemo } from "../../components/timelinedemo";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -20,7 +21,13 @@ export default function Home() {
       <ShootingStars />
       <NavbarDemo />
       <HeroScrollDemo />
-
+      <Image
+        src="/headshot.jpeg"
+        alt="my headshot"
+        width={270}
+        height={220}
+        className="object-cover border-emerald-100 border-2 md:w-48 md:h-48 max-w-full"
+      />
       <StarsBackground />
       {/* <SpotlightPreview /> */}
       <BentoGridThirdDemo />
