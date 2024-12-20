@@ -204,9 +204,9 @@ export function HeroScrollDemo() {
       <Image
         src="/headshot.jpeg"
         alt="my headshot"
-        height={220}
         width={220}
-        className="rounded-full object-cover border-emerald-100 border-2" // Ensure full width and auto height
+        height={220}
+        className="rounded-full object-cover border-emerald-100 border-2 md:w-48 md:h-48"
       />
     </div>
   );
