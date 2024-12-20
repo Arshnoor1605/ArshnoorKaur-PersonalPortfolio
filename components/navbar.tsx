@@ -32,7 +32,7 @@ function Navbar({ className }: { className?: string }) {
           <div className="text-sm grid grid-cols-1 gap-10 p-4">
             <ProductItem
               title="CareFinder"
-              href="/favicon.jpeg"
+              href="/Carefinder.jpeg"
               src="#"
               description="CareFinder is a web-based application designed to help users locate healthcare facilities in their area and across Canada. The platform includes a variety of facilities, such as hospitals, nursing homes, and ambulatory health care services."
             />
