@@ -27,12 +27,6 @@ function Navbar({ className }: { className?: string }) {
               Educational Background
             </HoveredLink>
           </div>
-          Eiusmod irure elit amet enim aute nisi est tempor. Ut minim amet
-          exercitation aliquip voluptate aliqua velit laboris. Magna incididunt
-          tempor commodo est. Esse est sit in magna consequat tempor et. Sunt
-          excepteur proident occaecat consequat magna Lorem. Qui ex cupidatat do
-          culpa officia ad sunt velit ea veniam excepteur ad labore. Est ut id
-          cillum fugiat sunt deserunt amet sunt.
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="text-sm grid grid-cols-1 gap-10 p-4">
