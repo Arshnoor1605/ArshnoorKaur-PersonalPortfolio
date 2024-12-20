@@ -17,19 +17,19 @@ export const projects = [
   {
     title: "Operating Systems",
     description:
-      "Focused on critical operating system concepts such as process and thread management, synchronization and communication techniques, scheduling algorithms, memory management strategies, file system design, resource protection, and system security.",
+      "O Explored processes and threads, including their management and lifecycle. \n O Studied synchronization techniques and inter-process communication. \n O Learned about scheduling algorithms and memory management strategies. \n O Covered file system structures, resource protection, and security mechanisms. \n O Analyzed the architecture and design of operating systems.",
     link: "#",
   },
   {
     title: "Data Structures and Algorithms",
     description:
-      "Covered fundamental data structures such as stacks, queues, hash tables, binary trees, and graphs. Explored key algorithms for searching, sorting, and graph traversal, including minimum spanning trees, shortest path algorithms, and tree operations. Gained hands-on experience with algorithmic design strategies, performance analysis, and correctness proofs. Focused on evaluating the time complexity of algorithms (best, average, and worst-case) and understanding the trade-offs between time and space complexity. Developed the ability to select and justify appropriate data structures and algorithms to solve various computational problems effectively.",
+      "O Covered fundamental data structures such as stacks, queues, hash tables, binary trees, and graphs. \n Explored key algorithms for searching, sorting, and graph traversal, including minimum spanning trees, shortest path algorithms, and tree operations. \n O Gained hands-on experience with algorithmic design strategies, performance analysis, and correctness proofs. \n O Focused on evaluating the time complexity of algorithms (best, average, and worst-case) and understanding the trade-offs between time and space complexity. \n O Developed the ability to select and justify appropriate data structures and algorithms to solve various computational problems effectively.",
     link: "#",
   },
   {
     title: "Computer Architecture",
     description:
-      "Developed a comprehensive understanding of foundational concepts, including digital logic computation, number representations (integer and floating-point), instruction set architecture (ISA), and the interaction between processors, memory, and I/O. Gained hands-on experience programming in ARM assembly and integrating assembly with C for practical tasks. Explored advanced topics such as CPU pipelining, parallelism, virtual memory, caching, and I/O systems. Acquired skills in evaluating and reasoning about ISA design and performance, memory hierarchies, and architecture choices while mastering the ability to analyze and convert between various number representation standards.",
+      "O Developed a comprehensive understanding of foundational concepts, including digital logic computation, number representations (integer and floating-point), instruction set architecture (ISA), and the interaction between processors, memory, and I/O. \n O Gained hands-on experience programming in ARM assembly and integrating assembly with C for practical tasks. \n O Explored advanced topics such as CPU pipelining, parallelism, virtual memory, caching, and I/O systems. \n O Acquired skills in evaluating and reasoning about ISA design and performance, memory hierarchies, and architecture choices while mastering the ability to analyze and convert between various number representation standards.",
     link: "#",
   },
   {

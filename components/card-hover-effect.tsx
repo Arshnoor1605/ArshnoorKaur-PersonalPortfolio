@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
+import { List } from "postcss/lib/list";
 import { useState } from "react";
 
 export const HoverEffect = ({
@@ -19,7 +20,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-20",
+        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-40",
         className
       )}
     >
@@ -69,7 +70,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-1 overflow-hidden bg-white text-black border border-teal-600 dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
+        "rounded-2xl h-full w-full p-1 overflow-hidden bg-teal-100 bg-opacity-75 text-black border border-teal-600 dark:border-white/[0.2] group-hover:border-slate-700 relative z-20",
         className
       )}
     >
@@ -89,7 +90,7 @@ export const CardTitle = ({
   return (
     <h4
       className={cn(
-        "text-teal-900 text-center font-bold tracking-wide mt-3 dark:text-teal-200",
+        "text-teal-800 text-center font-bold tracking-wide mt-3 dark:text-teal-200",
         className
       )}
     >
