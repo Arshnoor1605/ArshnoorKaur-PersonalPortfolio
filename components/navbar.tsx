@@ -27,9 +27,21 @@ function Navbar({ className }: { className?: string }) {
               Educational Background
             </HoveredLink>
           </div>
+          Eiusmod irure elit amet enim aute nisi est tempor. Ut minim amet
+          exercitation aliquip voluptate aliqua velit laboris. Magna incididunt
+          tempor commodo est. Esse est sit in magna consequat tempor et. Sunt
+          excepteur proident occaecat consequat magna Lorem. Qui ex cupidatat do
+          culpa officia ad sunt velit ea veniam excepteur ad labore. Est ut id
+          cillum fugiat sunt deserunt amet sunt.
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Projects">
           <div className="text-sm grid grid-cols-1 gap-10 p-4">
+            <ProductItem
+              title="CareFinder"
+              href="/favicon.ico"
+              src="#"
+              description="CareFinder is a web-based application designed to help users locate healthcare facilities in their area and across Canada. The platform includes a variety of facilities, such as hospitals, nursing homes, and ambulatory health care services."
+            />
             <ProductItem
               title="Algorithm Analysis"
               href="https://github.com/Arshnoor1605/Algorithm-Analysis/tree/main"
@@ -41,12 +53,6 @@ function Navbar({ className }: { className?: string }) {
               href="https://github.com/Arshnoor1605/RecursionGraphic"
               src="/Recursion.jpeg"
               description="A recursive Elm-based slider application with dynamic changes based on state."
-            />
-            <ProductItem
-              title="Math Visualizer"
-              href="https://gomoonbeam.com"
-              src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
-              description="Never write from scratch again. Go from idea to blog in minutes."
             />
           </div>
         </MenuItem>
