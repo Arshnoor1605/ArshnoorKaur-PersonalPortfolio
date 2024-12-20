@@ -171,6 +171,7 @@ import React, { useEffect, useRef } from "react";
 import { ContainerScroll } from "./ui/container-scroll-animation";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { LayoutGridDemo } from "./pic_layout";
 
 export function HeroScrollDemo() {
   return (
@@ -191,13 +192,14 @@ export function HeroScrollDemo() {
           </motion.h1>
         }
       >
-        <Image
+        {/* <Image
           src="/FallbyNoor.jpeg"
           alt="my image"
           height={720}
           width={1400}
           className="rounded-2xl object-cover h-auto w-full" // Ensure full width and auto height
-        />
+        /> */}
+        <LayoutGridDemo />
       </ContainerScroll>
     </div>
   );
