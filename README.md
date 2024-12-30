@@ -34,7 +34,7 @@ Follow these steps to run the project locally:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/arshnoor1605/portfolio.git
+git clone https://github.com/arshnoor1605/github-portfolio.git
 cd portfolio
 ```
 
