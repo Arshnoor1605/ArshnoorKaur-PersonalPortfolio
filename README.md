@@ -1,7 +1,9 @@
 # Personal Portfolio Website
 
-Welcome to my personal portfolio website! 🎉  
+Welcome to my personal portfolio website! 🎉   
 This project showcases my skills, experience, and projects in a visually appealing and interactive way. Built with **Next.js**, it combines modern web design principles with responsive functionality to provide an engaging user experience.  
+
+My personal portfolio website is now live! Check it out here: [Visit My Portfolio](https://github-portfolio-gray.vercel.app)
 
 ## Features
 
