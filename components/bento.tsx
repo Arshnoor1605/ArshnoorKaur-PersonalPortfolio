@@ -325,7 +325,7 @@ const SkeletonFour = () => {
           My resume can be accessed by clicking the button below
         </p>
         <a
-          href="https://drive.google.com/file/d/1htcrWpIIdr9i31NuhlLj5phFtpRKqSXp/view?usp=share_link"
+          href="https://drive.google.com/file/d/1EJ5kCiR3nPuyZI4eFNbojiGdRjWeUne2/view?usp=sharing"
           className="border border-green-500 bg-green-500 dark:bg-green-900/20 text-white text-base items-center justify-center rounded-full px-4 py-2.5 mt-4"
         >
           Resume
