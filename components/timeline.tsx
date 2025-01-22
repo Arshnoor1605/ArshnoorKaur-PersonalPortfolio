@@ -69,16 +69,14 @@ const Timeline: React.FC = () => (
     <TimelineItem
       date="May 2024 - August 2024"
       title="Outreach Instructor (Co-op) - Fondation STaBL Foundation"
-      description="As an Outreach Instructor, I played a pivotal role in educating over 5000+ K-12 students across Canada and internationally. I led the development and delivery of engaging educational programs, focusing on functional programming in Elm. I was also instrumental in conducting code reviews and actively participating in Agile scrum methodologies, including sprint planning, daily stand-ups, and sprint retrospectives, ensuring the delivery of high-quality educational content."
-      image="/STaBLlogo.png"
-    />
-    <TimelineItem
-      date="May 2024 - August 2024"
-      title="Educational Software Development Intern (Co-op) - Fondation STaBL Foundation"
-      description="Led cross-functional collaboration with developers, educators, and management teams to design and implement high-quality software, contributing to improving product efficiency by 40%.
-Spearheaded Agile sprint planning, stand-ups, and retrospectives, ensuring timely delivery of product features and enhancements.
-Managed stakeholder communication to align software development with educational objectives, prioritizing features based on user feedback and product roadmap.
-Successfully educated over 5000 students globally, demonstrating excellent communication, planning, and leadership skills through workshops and programs."
+      description="Developed and Enhanced Educational Software Systems: Designed and improved interactive tools using Elm, leveraging functional programming to achieve a 40% increase in system efficiency and reliability while ensuring exceptional user experience.
+Facilitated Agile Processes: Conducted detailed code reviews and actively participated in Agile methodologies, such as sprint planning, daily stand-ups, and retrospectives, ensuring effective communication and teamwork across diverse groups.
+Streamlined Version Control Processes: Led initiatives to enhance version control systems, optimizing workflow accuracy and efficiency, and fostering seamless collaboration within cross-functional teams.
+Created Engaging Educational Tools: Designed and delivered interactive educational applications for K-12 students, transforming complex programming and mathematical concepts into intuitive and accessible tools, highlighting strong content creation and presentation skills.
+Delivered Educational Workshops: Presented technical workshops and programs to over 2,000 K-12 students globally, showcasing excellent verbal and written communication skills, audience engagement, and adaptability to diverse learner needs.
+Collaborated Across Teams: Worked closely with developers, educators, and management to identify and resolve technical challenges, align project goals, and drive initiatives that improved stakeholder satisfaction and team productivity.
+Managed Projects with Precision: Organized and coordinated multiple concurrent projects, maintaining attention to detail, meeting tight deadlines, and adapting to evolving priorities in a fast-paced environment.
+Strengthened Stakeholder Relationships: Maintained effective communication with stakeholders, incorporating feedback to align software development with organizational objectives, emphasizing interpersonal and relationship-building skills."
       image="/STaBLlogo.png"
     />
     <TimelineItem
