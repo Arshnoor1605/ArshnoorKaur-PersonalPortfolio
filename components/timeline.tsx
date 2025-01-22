@@ -174,39 +174,21 @@ const Timeline: React.FC = () => (
         <>
           <ul className="list-disc pl-5">
             <li>
-              Developed and Enhanced Educational Software Systems: Designed and
-              improved interactive tools using Elm, achieving a 40% increase in
-              system efficiency and reliability.
+              <strong>
+                Developed and Enhanced Educational Software Systems
+              </strong>
+              : Designed and improved interactive tools using Elm, achieving a
+              40% increase in system efficiency and reliability.
             </li>
             <li>
-              Facilitated Agile Processes: Conducted code reviews and actively
-              participated in sprint planning, daily stand-ups, and
-              retrospectives.
+              <strong>Facilitated Agile Processes</strong>: Conducted code
+              reviews and actively participated in sprint planning, daily
+              stand-ups, and retrospectives.
             </li>
             <li>
-              Streamlined Version Control: Led initiatives to optimize version
-              control systems for seamless collaboration.
-            </li>
-            <li>
-              Created Engaging Educational Tools: Designed educational
-              applications for K-12 students to simplify complex programming
-              concepts.
-            </li>
-            <li>
-              Delivered Educational Workshops: Presented to over 2,000 students
-              globally.
-            </li>
-            <li>
-              Collaborated Across Teams: Worked with developers, educators, and
-              management to identify and resolve technical challenges.
-            </li>
-            <li>
-              Managed Projects with Precision: Coordinated multiple projects,
-              maintaining attention to detail.
-            </li>
-            <li>
-              Strengthened Stakeholder Relationships: Maintained communication
-              and incorporated feedback for alignment with organizational goals.
+              <strong>Created Engaging Educational Tools</strong>: Designed
+              educational applications for K-12 students to simplify complex
+              programming concepts.
             </li>
           </ul>
         </>
@@ -216,7 +198,25 @@ const Timeline: React.FC = () => (
     <TimelineItem
       date="January 2024 - May 2024"
       title="Software Developer - Fondation STaBL Foundation"
-      description="During my time as a Software Developer, I specialized in refining version control processes within existing software systems using the Elm Framework. My work focused on enhancing the efficiency and reliability of the software, where I also developed and tested prototypes to ensure the successful implementation of these improvements."
+      description={
+        <>
+          <ul className="list-disc pl-5">
+            <li>
+              <strong>Refined Version Control Processes</strong>: Improved the
+              efficiency and reliability of existing software systems using the
+              Elm Framework.
+            </li>
+            <li>
+              <strong>Developed and Tested Prototypes</strong>: Ensured the
+              successful implementation of improvements in software systems.
+            </li>
+            <li>
+              <strong>Enhanced Software System Efficiency</strong>: Focused on
+              optimizing the software and improving the overall user experience.
+            </li>
+          </ul>
+        </>
+      }
       image="/STaBLlogo.png"
     />
     <TimelineItem
@@ -226,23 +226,17 @@ const Timeline: React.FC = () => (
         <>
           <ul className="list-disc pl-5">
             <li>
-              Represent McMaster Start Coding at external events and workshops.
+              <strong>Represent McMaster Start Coding</strong>: Foster
+              relationships with educational institutions, industry
+              professionals, and community partners.
             </li>
             <li>
-              Identify and establish partnerships with relevant organizations.
-            </li>
-            <li>Collaborate with the team to organize outreach events.</li>
-            <li>
-              Advocate for computer science education and encourage community
-              involvement.
+              <strong>Identify and Establish Partnerships</strong>: Secure
+              sponsorships and resources for members.
             </li>
             <li>
-              Work on aligning external engagement strategies with long-term
-              goals.
-            </li>
-            <li>
-              Provide regular updates to the executive team on external
-              activities.
+              <strong>Coordinate Outreach Events</strong>: Work with the team to
+              organize events and ensure smooth external participation.
             </li>
           </ul>
         </>
