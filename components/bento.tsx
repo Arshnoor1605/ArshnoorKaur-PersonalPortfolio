@@ -468,16 +468,11 @@ const SkeletonFive = () => {
             Expected graduation (2027)
           </p>
           <p className="text-xs text-sky-900">
-            At McMaster University, where I’m pursuing my Honors Bachelor of
-            Applied Science in Computer Science, I actively participate in
-            various extracurricular activities that enhance my learning
-            experience. In January 2024, I took part in DeltaHacks, a hackathon
-            focused on solving real-world problems with technology. I am also
-            involved in Women in Engineering (WIE), promoting diversity in STEM,
-            and the Google Developer Students Club, where I collaborate on tech
-            projects and attend workshops. These experiences have helped me
-            develop strong skills in teamwork, leadership, and technical
-            development.
+            Currently enrolled in the 3rd year of Honours of Computer Science
+            Co-op program at McMaster University, eligible for a 4 -16 month
+            co-op starting in May 2025. Experience with cloud native
+            applications with exposure to private, public and hybrid cloud
+            models and cloud native core principles
           </p>
         </div>
       </motion.div>
