@@ -106,7 +106,7 @@ import React from "react";
 interface TimelineItemProps {
   date: string;
   title: string;
-  description: string | JSX.Element; // Allow for JSX elements in description
+  description: string | JSX.Element;
   link?: string;
   linkText?: string;
   image?: string;
@@ -177,18 +177,56 @@ const Timeline: React.FC = () => (
               <strong>
                 Developed and Enhanced Educational Software Systems
               </strong>
-              : Designed and improved interactive tools using Elm, achieving a
-              40% increase in system efficiency and reliability.
+              : Designed and improved interactive tools using Elm, leveraging
+              functional programming to achieve a 40% increase in system
+              efficiency and reliability while ensuring exceptional user
+              experience.
             </li>
             <li>
-              <strong>Facilitated Agile Processes</strong>: Conducted code
-              reviews and actively participated in sprint planning, daily
-              stand-ups, and retrospectives.
+              <strong>Facilitated Agile Processes</strong>: Conducted detailed
+              code reviews and actively participated in Agile methodologies,
+              such as sprint planning, daily stand-ups, and retrospectives,
+              ensuring effective communication and teamwork across diverse
+              groups.
             </li>
             <li>
-              <strong>Created Engaging Educational Tools</strong>: Designed
-              educational applications for K-12 students to simplify complex
-              programming concepts.
+              <strong>Streamlined Version Control Processes</strong>: Led
+              initiatives to enhance version control systems, optimizing
+              workflow accuracy and efficiency, and fostering seamless
+              collaboration within cross-functional teams.
+            </li>
+            <li>
+              <strong>Created Engaging Educational Tools</strong>: Designed and
+              delivered interactive educational applications for K-12 students,
+              transforming complex programming and mathematical concepts into
+              intuitive and accessible tools, highlighting strong content
+              creation and presentation skills.
+            </li>
+            <li>
+              <strong>Delivered Educational Workshops</strong>: Presented
+              technical workshops and programs to over 2,000 K-12 students
+              globally, showcasing excellent verbal and written communication
+              skills, audience engagement, and adaptability to diverse learner
+              needs.
+            </li>
+            <li>
+              <strong>Collaborated Across Teams</strong>: Worked closely with
+              developers, educators, and management to identify and resolve
+              technical challenges, align project goals, and drive initiatives
+              that improved stakeholder satisfaction and team productivity.
+            </li>
+            <li>
+              <strong>Managed Projects with Precision</strong>: Organized and
+              coordinated multiple concurrent projects, maintaining attention to
+              detail, meeting tight deadlines, and adapting to evolving
+              priorities in a fast-paced environment.
+            </li>
+            <li>
+              <strong>Strengthened Stakeholder Relationships</strong>:
+              Maintained effective communication with stakeholders,
+              incorporating feedback to align software development with
+              organizational objectives, emphasizing interpersonal and
+              relationship-building skills.
             </li>
           </ul>
         </>
@@ -226,17 +264,36 @@ const Timeline: React.FC = () => (
         <>
           <ul className="list-disc pl-5">
             <li>
-              <strong>Represent McMaster Start Coding</strong>: Foster
+              <strong>Community Engagement</strong>: Represent McMaster Start
+              Coding at external events, workshops, and conferences, fostering
               relationships with educational institutions, industry
               professionals, and community partners.
             </li>
             <li>
-              <strong>Identify and Establish Partnerships</strong>: Secure
-              sponsorships and resources for members.
+              <strong>Partnership Development</strong>: Identify and establish
+              partnerships with organizations that align with the club's
+              mission, securing sponsorships, resources, and opportunities for
+              members.
             </li>
             <li>
-              <strong>Coordinate Outreach Events</strong>: Work with the team to
-              organize events and ensure smooth external participation.
+              <strong>Event Coordination</strong>: Collaborate with the internal
+              team to organize outreach events, ensuring seamless communication
+              and participation from external stakeholders.
+            </li>
+            <li>
+              <strong>Promotion and Advocacy</strong>: Act as a spokesperson for
+              the club's initiatives, advocating for computer science education
+              and encouraging community involvement.
+            </li>
+            <li>
+              <strong>Strategic Planning</strong>: Work with the executive team
+              to align external engagement strategies with the club's long-term
+              goals, contributing to growth and impact.
+            </li>
+            <li>
+              <strong>Reporting</strong>: Provide regular updates to the
+              executive team on external activities, partnerships, and
+              opportunities for further development.
             </li>
           </ul>
         </>
