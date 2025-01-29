@@ -258,7 +258,7 @@ const SkeletonThree = () => {
       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2 relative"
       style={{
         backgroundImage:
-          "/Users/arshnoorkaur/github-portfolio/public/aws-certified-developer-associate-3.png",
+          "url('https://images.credly.com/size/680x680/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png')",
         backgroundSize: "contain", // Adjust to "contain" to fit the image within the container
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
