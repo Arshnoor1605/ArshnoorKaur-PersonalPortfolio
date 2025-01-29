@@ -189,10 +189,10 @@ const SkeletonTwo = () => {
   ];
 
   // Array of texts to display in each bar
-  const texts = ["Python", "HTML, CSS", "React", "Java", "C", "MS Office"];
+  const texts = ["Python", "HTML, CSS", "JavaScript", "Java", "C", "SQL"];
 
   // Array of custom widths for each bar
-  const widths = ["40%", "70%", "80%", "60%", "80%", "80%"];
+  const widths = ["90%", "80%", "60%", "70%", "80%", "90%"];
 
   const arr = new Array(6).fill(0);
 
