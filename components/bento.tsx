@@ -253,12 +253,12 @@ const SkeletonTwo = () => {
 const SkeletonThree = () => {
   return (
     <a
-      href="https://www.credly.com/badges/b64c1f02-8a70-4960-a35c-7aafafc5487c/public_url" // Replace with your desired URL
+      href="https://cp.certmetrics.com/amazon/en/public/verify/credential/efcaf3970f6a48c9b722c0301afa79d7" // Replace with your desired URL
       target="_blank" // Opens the link in a new tab
       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2 relative"
       style={{
         backgroundImage:
-          "url('https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png')",
+          "/Users/arshnoorkaur/github-portfolio/public/aws-certified-developer-associate-3.png",
         backgroundSize: "contain", // Adjust to "contain" to fit the image within the container
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -469,7 +469,7 @@ const SkeletonFive = () => {
           </p>
           <p className="text-xs text-sky-900">
             Currently enrolled in the 3rd year of Honours of Computer Science
-            Co-op program at McMaster University, eligible for a 4 -16 month
+            Co-op program at McMaster University, eligible for a 4 - 16 month
             co-op starting in May 2025. Experience with cloud native
             applications with exposure to private, public and hybrid cloud
             models and cloud native core principles
@@ -528,10 +528,15 @@ const items = [
     title: "Certifications",
     description: (
       <span id="Connectwithme" className="text-xs">
-        I am pleased to hold the AWS Cloud Practitioner certification, which
-        underscores my foundational knowledge of cloud computing and Amazon Web
-        Services (AWS). This certification validates my understanding of
-        essential AWS services, cloud concepts, security, and pricing models
+        I have earned the AWS Certified Developer – Associate certification,
+        which has equipped me with a strong foundation in cloud development on
+        Amazon Web Services (AWS). This certification demonstrates my expertise
+        in deploying, managing, and optimizing applications on AWS, with a focus
+        on utilizing key services like AWS Lambda, S3, DynamoDB, and API
+        Gateway. It has enhanced my ability to design scalable, secure, and
+        highly available applications, and has deepened my understanding of AWS
+        best practices in areas such as application deployment, monitoring, and
+        security.
       </span>
     ),
     header: <SkeletonThree />,
