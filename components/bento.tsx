@@ -517,8 +517,9 @@ const items = [
     title: "Skills",
     description: (
       <span id="Certifications" className="text-sm">
-        I'm a cell-like independent teamworker, strong in coding and research.
-        Below are highlights of my technical skills:
+        I thrive in both independent and collaborative environments, with a
+        strong focus on coding and problem-solving. Below are highlights of my
+        technical skills:
       </span>
     ),
     header: <SkeletonTwo />,
