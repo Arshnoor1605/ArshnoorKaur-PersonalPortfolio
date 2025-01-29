@@ -131,7 +131,7 @@ const SkeletonOne = () => {
           </a>
         </div>
       </motion.div>
-      <p>
+      <p className="font-sans antialiased font-normal text-white text-xs dark:text-neutral-300">
         I’m passionate about software development and creating innovative
         solutions that enhance user experiences. With experience in web
         development, cloud computing, and database management, I’m always
