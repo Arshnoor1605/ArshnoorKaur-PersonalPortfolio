@@ -131,6 +131,17 @@ const SkeletonOne = () => {
           </a>
         </div>
       </motion.div>
+      <p>
+        I’m passionate about software development and creating innovative
+        solutions that enhance user experiences. With experience in web
+        development, cloud computing, and database management, I’m always
+        looking to expand my skills and contribute to impactful projects. As the
+        VP External of McMaster Start Coding, I play a key role in promoting the
+        club's initiatives and fostering partnerships with external
+        organizations to create new opportunities for our members. I thrive in
+        team environments and enjoy tackling complex challenges that push me to
+        think creatively.
+      </p>
     </motion.div>
   );
 };
